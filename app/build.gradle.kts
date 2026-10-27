@@ -14,9 +14,7 @@ android {
         versionName = "0.1.0"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
-    buildTypes {
-        release { isMinifyEnabled = false }
-    }
+    buildTypes { release { isMinifyEnabled = false } }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
@@ -26,6 +24,9 @@ android {
     packaging { resources.excludes += "/META-INF/{AL2.0,LGPL2.1}" }
 }
 dependencies {
+    implementation(project(":core:domain"))
+    implementation(project(":core:data"))
+    implementation(project(":core:designsystem"))
     implementation(platform("androidx.compose:compose-bom:2024.10.01"))
     implementation("androidx.activity:activity-compose:1.9.3")
     implementation("androidx.core:core-ktx:1.15.0")
