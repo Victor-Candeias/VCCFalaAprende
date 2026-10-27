@@ -15,34 +15,30 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import pt.vcc.falaaprende.core.data.LocalWelcomeRepository
+import pt.vcc.falaaprende.core.designsystem.FalaAprendeTheme
+import pt.vcc.falaaprende.core.domain.model.WelcomeMessage
+import pt.vcc.falaaprende.core.domain.usecase.GetWelcomeMessageUseCase
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContent { FalaAprendeApp() }
+        val welcome = GetWelcomeMessageUseCase(LocalWelcomeRepository())()
+        setContent { FalaAprendeApp(welcome) }
     }
 }
 
 @Composable
-fun FalaAprendeApp() {
-    MaterialTheme {
+fun FalaAprendeApp(welcome: WelcomeMessage) {
+    FalaAprendeTheme {
         Surface(modifier = Modifier.fillMaxSize()) {
             Column(
                 modifier = Modifier.fillMaxSize().padding(24.dp),
                 horizontalAlignment = Alignment.CenterHorizontally,
                 verticalArrangement = Arrangement.Center
             ) {
-                Text(
-                    text = "VCC Fala & Aprende",
-                    style = MaterialTheme.typography.headlineMedium,
-                    textAlign = TextAlign.Center
-                )
-                Text(
-                    text = "Aprender a comunicar, brincar e crescer!",
-                    modifier = Modifier.padding(top = 16.dp),
-                    style = MaterialTheme.typography.bodyLarge,
-                    textAlign = TextAlign.Center
-                )
+                Text(welcome.title, style = MaterialTheme.typography.headlineMedium, textAlign = TextAlign.Center)
+                Text(welcome.subtitle, modifier = Modifier.padding(top = 16.dp), style = MaterialTheme.typography.bodyLarge, textAlign = TextAlign.Center)
             }
         }
     }
