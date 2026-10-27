@@ -1,0 +1,98 @@
+name: Importar backlog VCC Fala Aprende
+on:
+  push:
+    paths: ['.github/workflows/importar-workitems.yml']
+  workflow_dispatch:
+permissions:
+  issues: write
+  contents: read
+jobs:
+  importar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Criar Issues em falta
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+        run: |
+          python3 - <<'PY'
+          import os,json,time,re,urllib.request,urllib.error
+          repo=os.environ["REPO"]; token=os.environ["GH_TOKEN"]
+          base=f"https://api.github.com/repos/{repo}"
+          def api(method,path,payload=None):
+              data=None if payload is None else json.dumps(payload,ensure_ascii=False).encode()
+              req=urllib.request.Request(base+path,data=data,method=method,headers={"Authorization":"Bearer "+token,"Accept":"application/vnd.github+json","X-GitHub-Api-Version":"2022-11-28","Content-Type":"application/json"})
+              for attempt in range(6):
+                  try:
+                      with urllib.request.urlopen(req,timeout=45) as r:return json.load(r)
+                  except urllib.error.HTTPError as e:
+                      if e.code in (403,429,500,502,503) and attempt<5:
+                          time.sleep(10*(attempt+1));continue
+                      raise
+          existing=set()
+          page=1
+          while True:
+              rows=api("GET",f"/issues?state=all&per_page=100&page={page}")
+              for x in rows:
+                  if "pull_request" not in x:
+                      m=re.search(r"\[VCC-(\d{3})\]",x["title"])
+                      if m:existing.add(int(m.group(1)))
+              if len(rows)<100:break
+              page+=1
+          E=[
+          (24,"F0","P0","Projeto Android e Gradle|Módulos Clean Architecture|Navegação Compose|Design system infantil|Injeção de dependências|Base de dados Room|Pipeline CI|Gestão de erros"),
+          (22,"F1","P0","Consentimento parental|PIN parental|Política de retenção|Exportação de dados|Eliminação de perfis|Permissões de microfone|Proteção de gravações"),
+          (16,"F1","P0","Criar perfil infantil|Selecionar perfil|Editar perfil|Preferências de acessibilidade|Faixa etária|Avatar infantil"),
+          (30,"F1","P0","Catálogo de atividades|Categorias e competências|Pacotes de conteúdo offline|Pesquisa de conteúdos|Filtros por idade|Importação de recursos"),
+          (28,"F2","P1","Síntese de voz pt-PT|Reprodução de áudio|Gravação de voz local|Permissões de microfone|Comparação manual de gravações|Retenção e eliminação de áudio"),
+          (26,"F1","P0","Modelo de exercício|Execução de atividades|Feedback pedagógico|Regras de progressão|Persistência de resultados|Acessibilidade dos exercícios"),
+          (36,"F3","P1","Jogo de associação|Jogo de memória|Jogo de sequências|Jogo de discriminação auditiva|Recompensas não competitivas|Níveis de dificuldade"),
+          (52,"F3","P1","Articulação de fonemas|Sílabas e palavras|Rimas|Vocabulário|Compreensão oral|Construção de frases|Narrativas|Pré-leitura e escrita"),
+          (20,"F4","P1","Plano de atividades|Objetivos individuais|Sessão guiada|Atividades para casa|Histórico de sessões"),
+          (28,"F5","P2","Dashboard parental|Área do terapeuta|Notas e observações|Relatórios de progresso|Editor de atividades|Partilha consentida"),
+          (18,"F0-F6","P1","Testes unitários|Testes instrumentados|Acessibilidade|Testes offline|Privacidade e segurança|Build e publicação")]
+          verbs=["Implementar","Criar interface","Persistir e integrar","Testar e validar","Documentar e otimizar"]
+          n=0;created=0
+          for k,(count,phase,prio,topics) in enumerate(E,1):
+              ts=topics.split("|")
+              for j in range(count):
+                  n+=1
+                  if n in existing:continue
+                  id=f"VCC-{n:03d}";topic=ts[j%len(ts)];verb=verbs[(j//len(ts))%len(verbs)]
+                  body=f"""## Objetivo
+          {verb} **{topic}** na aplicação Android VCC Fala & Aprende.
+
+          ## Especificação técnica
+          1. Definir contratos, estados e regras de negócio de **{topic}**.
+          2. {verb} o entregável com Kotlin, Jetpack Compose e arquitetura MVVM/Clean Architecture.
+          3. Integrar Room, áudio local e navegação quando aplicável.
+          4. Garantir funcionamento offline, pt-PT, acessibilidade e proteção dos dados infantis.
+          5. Documentar comportamentos, exceções e integrações.
+
+          ## Critérios de aceitação
+          - [ ] Funcionalidade **{topic}** implementada e documentada.
+          - [ ] Fluxos principais e de erro tratados, sem ligação obrigatória à Internet.
+          - [ ] Adequação a crianças dos 3 aos 10 anos.
+          - [ ] Não são produzidos diagnósticos nem classificações clínicas automáticas.
+
+          ## Testes
+          - [ ] Testes unitários/instrumentados das regras relevantes.
+          - [ ] Validação manual do fluxo principal, casos-limite e acessibilidade.
+          - [ ] Revisão pedagógica/terapêutica quando aplicável.
+
+          ## Definition of Done
+          - [ ] Código revisto e compilação aprovada.
+          - [ ] Critérios de aceitação e testes concluídos.
+          - [ ] Documentação atualizada.
+
+          **ID:** {id} · **Épico:** E{k:02d} · **Fase:** {phase} · **Prioridade:** {prio}
+          **Dependência indicativa:** {f'VCC-{n-1:03d}' if j else 'Nenhuma'}
+
+          > Planeamento inicial sujeito a refinamento."""
+                  body="\n".join(line.strip() for line in body.splitlines())
+                  api("POST","/issues",{"title":f"[{id}] {verb} — {topic}","body":body,"labels":[f"epic:E{k:02d}",f"phase:{phase}",f"priority:{prio.lower()}"]})
+                  created+=1
+                  print(f"Criado {id} ({created} novos)")
+                  time.sleep(0.35)
+          print(f"Concluído: {created} novas Issues; total esperado 300.")
+          PY
