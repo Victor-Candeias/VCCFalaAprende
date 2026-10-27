@@ -1,0 +1,301 @@
+﻿ID,Epic,EpicName,Title,Phase,Priority,Status,Dependency,File
+VCC-001,E01,Fundação e arquitetura Android,Implementar — Projeto Android e Gradle,F0,P0,Backlog,Nenhuma,E01_Funda_o_e_arquitetura_Android/VCC-001.md
+VCC-002,E01,Fundação e arquitetura Android,Implementar — Módulos Clean Architecture,F0,P0,Backlog,VCC-001,E01_Funda_o_e_arquitetura_Android/VCC-002.md
+VCC-003,E01,Fundação e arquitetura Android,Implementar — Navegação Compose,F0,P0,Backlog,VCC-001,E01_Funda_o_e_arquitetura_Android/VCC-003.md
+VCC-004,E01,Fundação e arquitetura Android,Implementar — Design system infantil,F0,P0,Backlog,VCC-001,E01_Funda_o_e_arquitetura_Android/VCC-004.md
+VCC-005,E01,Fundação e arquitetura Android,Implementar — Injeção de dependências,F0,P0,Backlog,VCC-001,E01_Funda_o_e_arquitetura_Android/VCC-005.md
+VCC-006,E01,Fundação e arquitetura Android,Implementar — Base de dados Room,F0,P0,Backlog,VCC-001,E01_Funda_o_e_arquitetura_Android/VCC-006.md
+VCC-007,E01,Fundação e arquitetura Android,Implementar — Pipeline CI,F0,P0,Backlog,VCC-001,E01_Funda_o_e_arquitetura_Android/VCC-007.md
+VCC-008,E01,Fundação e arquitetura Android,Implementar — Gestão de erros,F0,P0,Backlog,VCC-001,E01_Funda_o_e_arquitetura_Android/VCC-008.md
+VCC-009,E01,Fundação e arquitetura Android,Criar interface — Projeto Android e Gradle,F0,P0,Backlog,VCC-008,E01_Funda_o_e_arquitetura_Android/VCC-009.md
+VCC-010,E01,Fundação e arquitetura Android,Criar interface — Módulos Clean Architecture,F0,P0,Backlog,VCC-009,E01_Funda_o_e_arquitetura_Android/VCC-010.md
+VCC-011,E01,Fundação e arquitetura Android,Criar interface — Navegação Compose,F0,P0,Backlog,VCC-010,E01_Funda_o_e_arquitetura_Android/VCC-011.md
+VCC-012,E01,Fundação e arquitetura Android,Criar interface — Design system infantil,F0,P0,Backlog,VCC-011,E01_Funda_o_e_arquitetura_Android/VCC-012.md
+VCC-013,E01,Fundação e arquitetura Android,Criar interface — Injeção de dependências,F0,P0,Backlog,VCC-012,E01_Funda_o_e_arquitetura_Android/VCC-013.md
+VCC-014,E01,Fundação e arquitetura Android,Criar interface — Base de dados Room,F0,P0,Backlog,VCC-013,E01_Funda_o_e_arquitetura_Android/VCC-014.md
+VCC-015,E01,Fundação e arquitetura Android,Criar interface — Pipeline CI,F0,P0,Backlog,VCC-014,E01_Funda_o_e_arquitetura_Android/VCC-015.md
+VCC-016,E01,Fundação e arquitetura Android,Criar interface — Gestão de erros,F0,P0,Backlog,VCC-015,E01_Funda_o_e_arquitetura_Android/VCC-016.md
+VCC-017,E01,Fundação e arquitetura Android,Persistir e integrar — Projeto Android e Gradle,F0,P0,Backlog,VCC-016,E01_Funda_o_e_arquitetura_Android/VCC-017.md
+VCC-018,E01,Fundação e arquitetura Android,Persistir e integrar — Módulos Clean Architecture,F0,P0,Backlog,VCC-017,E01_Funda_o_e_arquitetura_Android/VCC-018.md
+VCC-019,E01,Fundação e arquitetura Android,Persistir e integrar — Navegação Compose,F0,P0,Backlog,VCC-018,E01_Funda_o_e_arquitetura_Android/VCC-019.md
+VCC-020,E01,Fundação e arquitetura Android,Persistir e integrar — Design system infantil,F0,P0,Backlog,VCC-019,E01_Funda_o_e_arquitetura_Android/VCC-020.md
+VCC-021,E01,Fundação e arquitetura Android,Persistir e integrar — Injeção de dependências,F0,P0,Backlog,VCC-020,E01_Funda_o_e_arquitetura_Android/VCC-021.md
+VCC-022,E01,Fundação e arquitetura Android,Persistir e integrar — Base de dados Room,F0,P0,Backlog,VCC-021,E01_Funda_o_e_arquitetura_Android/VCC-022.md
+VCC-023,E01,Fundação e arquitetura Android,Persistir e integrar — Pipeline CI,F0,P0,Backlog,VCC-022,E01_Funda_o_e_arquitetura_Android/VCC-023.md
+VCC-024,E01,Fundação e arquitetura Android,Persistir e integrar — Gestão de erros,F0,P0,Backlog,VCC-023,E01_Funda_o_e_arquitetura_Android/VCC-024.md
+VCC-025,E02,Privacidade e segurança infantil,Implementar — Consentimento do responsável,F1,P0,Backlog,VCC-001,E02_Privacidade_e_seguran_a_infantil/VCC-025.md
+VCC-026,E02,Privacidade e segurança infantil,Implementar — PIN parental,F1,P0,Backlog,VCC-001,E02_Privacidade_e_seguran_a_infantil/VCC-026.md
+VCC-027,E02,Privacidade e segurança infantil,Implementar — Permissões Android,F1,P0,Backlog,VCC-001,E02_Privacidade_e_seguran_a_infantil/VCC-027.md
+VCC-028,E02,Privacidade e segurança infantil,Implementar — Política de retenção,F1,P0,Backlog,VCC-001,E02_Privacidade_e_seguran_a_infantil/VCC-028.md
+VCC-029,E02,Privacidade e segurança infantil,Implementar — Eliminação de dados,F1,P0,Backlog,VCC-001,E02_Privacidade_e_seguran_a_infantil/VCC-029.md
+VCC-030,E02,Privacidade e segurança infantil,Implementar — Exportação segura,F1,P0,Backlog,VCC-001,E02_Privacidade_e_seguran_a_infantil/VCC-030.md
+VCC-031,E02,Privacidade e segurança infantil,Implementar — Proteção de gravações,F1,P0,Backlog,VCC-001,E02_Privacidade_e_seguran_a_infantil/VCC-031.md
+VCC-032,E02,Privacidade e segurança infantil,Implementar — Auditoria de privacidade,F1,P0,Backlog,VCC-001,E02_Privacidade_e_seguran_a_infantil/VCC-032.md
+VCC-033,E02,Privacidade e segurança infantil,Criar interface — Consentimento do responsável,F1,P0,Backlog,VCC-032,E02_Privacidade_e_seguran_a_infantil/VCC-033.md
+VCC-034,E02,Privacidade e segurança infantil,Criar interface — PIN parental,F1,P0,Backlog,VCC-033,E02_Privacidade_e_seguran_a_infantil/VCC-034.md
+VCC-035,E02,Privacidade e segurança infantil,Criar interface — Permissões Android,F1,P0,Backlog,VCC-034,E02_Privacidade_e_seguran_a_infantil/VCC-035.md
+VCC-036,E02,Privacidade e segurança infantil,Criar interface — Política de retenção,F1,P0,Backlog,VCC-035,E02_Privacidade_e_seguran_a_infantil/VCC-036.md
+VCC-037,E02,Privacidade e segurança infantil,Criar interface — Eliminação de dados,F1,P0,Backlog,VCC-036,E02_Privacidade_e_seguran_a_infantil/VCC-037.md
+VCC-038,E02,Privacidade e segurança infantil,Criar interface — Exportação segura,F1,P0,Backlog,VCC-037,E02_Privacidade_e_seguran_a_infantil/VCC-038.md
+VCC-039,E02,Privacidade e segurança infantil,Criar interface — Proteção de gravações,F1,P0,Backlog,VCC-038,E02_Privacidade_e_seguran_a_infantil/VCC-039.md
+VCC-040,E02,Privacidade e segurança infantil,Criar interface — Auditoria de privacidade,F1,P0,Backlog,VCC-039,E02_Privacidade_e_seguran_a_infantil/VCC-040.md
+VCC-041,E02,Privacidade e segurança infantil,Persistir e integrar — Consentimento do responsável,F3,P1,Backlog,VCC-040,E02_Privacidade_e_seguran_a_infantil/VCC-041.md
+VCC-042,E02,Privacidade e segurança infantil,Persistir e integrar — PIN parental,F3,P1,Backlog,VCC-041,E02_Privacidade_e_seguran_a_infantil/VCC-042.md
+VCC-043,E02,Privacidade e segurança infantil,Persistir e integrar — Permissões Android,F3,P1,Backlog,VCC-042,E02_Privacidade_e_seguran_a_infantil/VCC-043.md
+VCC-044,E02,Privacidade e segurança infantil,Persistir e integrar — Política de retenção,F3,P1,Backlog,VCC-043,E02_Privacidade_e_seguran_a_infantil/VCC-044.md
+VCC-045,E02,Privacidade e segurança infantil,Persistir e integrar — Eliminação de dados,F3,P1,Backlog,VCC-044,E02_Privacidade_e_seguran_a_infantil/VCC-045.md
+VCC-046,E02,Privacidade e segurança infantil,Persistir e integrar — Exportação segura,F3,P1,Backlog,VCC-045,E02_Privacidade_e_seguran_a_infantil/VCC-046.md
+VCC-047,E03,Perfis de crianças,Implementar — Criação de perfil,F1,P0,Backlog,VCC-001,E03_Perfis_de_crian_as/VCC-047.md
+VCC-048,E03,Perfis de crianças,Implementar — Edição de perfil,F1,P0,Backlog,VCC-001,E03_Perfis_de_crian_as/VCC-048.md
+VCC-049,E03,Perfis de crianças,Implementar — Avatar infantil,F1,P0,Backlog,VCC-001,E03_Perfis_de_crian_as/VCC-049.md
+VCC-050,E03,Perfis de crianças,Implementar — Preferências de acessibilidade,F1,P0,Backlog,VCC-001,E03_Perfis_de_crian_as/VCC-050.md
+VCC-051,E03,Perfis de crianças,Implementar — Troca de perfil,F1,P0,Backlog,VCC-001,E03_Perfis_de_crian_as/VCC-051.md
+VCC-052,E03,Perfis de crianças,Implementar — Isolamento de progresso,F1,P0,Backlog,VCC-001,E03_Perfis_de_crian_as/VCC-052.md
+VCC-053,E03,Perfis de crianças,Criar interface — Criação de perfil,F1,P0,Backlog,VCC-052,E03_Perfis_de_crian_as/VCC-053.md
+VCC-054,E03,Perfis de crianças,Criar interface — Edição de perfil,F1,P0,Backlog,VCC-053,E03_Perfis_de_crian_as/VCC-054.md
+VCC-055,E03,Perfis de crianças,Criar interface — Avatar infantil,F1,P0,Backlog,VCC-054,E03_Perfis_de_crian_as/VCC-055.md
+VCC-056,E03,Perfis de crianças,Criar interface — Preferências de acessibilidade,F1,P0,Backlog,VCC-055,E03_Perfis_de_crian_as/VCC-056.md
+VCC-057,E03,Perfis de crianças,Criar interface — Troca de perfil,F1,P0,Backlog,VCC-056,E03_Perfis_de_crian_as/VCC-057.md
+VCC-058,E03,Perfis de crianças,Criar interface — Isolamento de progresso,F1,P0,Backlog,VCC-057,E03_Perfis_de_crian_as/VCC-058.md
+VCC-059,E03,Perfis de crianças,Persistir e integrar — Criação de perfil,F3,P1,Backlog,VCC-058,E03_Perfis_de_crian_as/VCC-059.md
+VCC-060,E03,Perfis de crianças,Persistir e integrar — Edição de perfil,F3,P1,Backlog,VCC-059,E03_Perfis_de_crian_as/VCC-060.md
+VCC-061,E03,Perfis de crianças,Persistir e integrar — Avatar infantil,F3,P1,Backlog,VCC-060,E03_Perfis_de_crian_as/VCC-061.md
+VCC-062,E03,Perfis de crianças,Persistir e integrar — Preferências de acessibilidade,F3,P1,Backlog,VCC-061,E03_Perfis_de_crian_as/VCC-062.md
+VCC-063,E04,Biblioteca e gestão de conteúdos,Implementar — Esquema JSON de conteúdos,F1,P0,Backlog,VCC-001,E04_Biblioteca_e_gest_o_de_conte_dos/VCC-063.md
+VCC-064,E04,Biblioteca e gestão de conteúdos,Implementar — Validador de conteúdos,F1,P0,Backlog,VCC-001,E04_Biblioteca_e_gest_o_de_conte_dos/VCC-064.md
+VCC-065,E04,Biblioteca e gestão de conteúdos,Implementar — Catálogo pt-PT,F1,P0,Backlog,VCC-001,E04_Biblioteca_e_gest_o_de_conte_dos/VCC-065.md
+VCC-066,E04,Biblioteca e gestão de conteúdos,Implementar — Imagens educativas,F1,P0,Backlog,VCC-001,E04_Biblioteca_e_gest_o_de_conte_dos/VCC-066.md
+VCC-067,E04,Biblioteca e gestão de conteúdos,Implementar — Pacotes de áudio,F1,P0,Backlog,VCC-001,E04_Biblioteca_e_gest_o_de_conte_dos/VCC-067.md
+VCC-068,E04,Biblioteca e gestão de conteúdos,Implementar — Importação offline,F1,P0,Backlog,VCC-001,E04_Biblioteca_e_gest_o_de_conte_dos/VCC-068.md
+VCC-069,E04,Biblioteca e gestão de conteúdos,Implementar — Versionamento de packs,F1,P0,Backlog,VCC-001,E04_Biblioteca_e_gest_o_de_conte_dos/VCC-069.md
+VCC-070,E04,Biblioteca e gestão de conteúdos,Implementar — Pesquisa e filtros,F1,P0,Backlog,VCC-001,E04_Biblioteca_e_gest_o_de_conte_dos/VCC-070.md
+VCC-071,E04,Biblioteca e gestão de conteúdos,Implementar — Metadados pedagógicos,F1,P0,Backlog,VCC-001,E04_Biblioteca_e_gest_o_de_conte_dos/VCC-071.md
+VCC-072,E04,Biblioteca e gestão de conteúdos,Implementar — Revisão editorial,F1,P0,Backlog,VCC-001,E04_Biblioteca_e_gest_o_de_conte_dos/VCC-072.md
+VCC-073,E04,Biblioteca e gestão de conteúdos,Criar interface — Esquema JSON de conteúdos,F1,P0,Backlog,VCC-072,E04_Biblioteca_e_gest_o_de_conte_dos/VCC-073.md
+VCC-074,E04,Biblioteca e gestão de conteúdos,Criar interface — Validador de conteúdos,F1,P0,Backlog,VCC-073,E04_Biblioteca_e_gest_o_de_conte_dos/VCC-074.md
+VCC-075,E04,Biblioteca e gestão de conteúdos,Criar interface — Catálogo pt-PT,F1,P0,Backlog,VCC-074,E04_Biblioteca_e_gest_o_de_conte_dos/VCC-075.md
+VCC-076,E04,Biblioteca e gestão de conteúdos,Criar interface — Imagens educativas,F1,P0,Backlog,VCC-075,E04_Biblioteca_e_gest_o_de_conte_dos/VCC-076.md
+VCC-077,E04,Biblioteca e gestão de conteúdos,Criar interface — Pacotes de áudio,F1,P0,Backlog,VCC-076,E04_Biblioteca_e_gest_o_de_conte_dos/VCC-077.md
+VCC-078,E04,Biblioteca e gestão de conteúdos,Criar interface — Importação offline,F1,P0,Backlog,VCC-077,E04_Biblioteca_e_gest_o_de_conte_dos/VCC-078.md
+VCC-079,E04,Biblioteca e gestão de conteúdos,Criar interface — Versionamento de packs,F1,P0,Backlog,VCC-078,E04_Biblioteca_e_gest_o_de_conte_dos/VCC-079.md
+VCC-080,E04,Biblioteca e gestão de conteúdos,Criar interface — Pesquisa e filtros,F1,P0,Backlog,VCC-079,E04_Biblioteca_e_gest_o_de_conte_dos/VCC-080.md
+VCC-081,E04,Biblioteca e gestão de conteúdos,Criar interface — Metadados pedagógicos,F1,P0,Backlog,VCC-080,E04_Biblioteca_e_gest_o_de_conte_dos/VCC-081.md
+VCC-082,E04,Biblioteca e gestão de conteúdos,Criar interface — Revisão editorial,F1,P0,Backlog,VCC-081,E04_Biblioteca_e_gest_o_de_conte_dos/VCC-082.md
+VCC-083,E04,Biblioteca e gestão de conteúdos,Persistir e integrar — Esquema JSON de conteúdos,F3,P1,Backlog,VCC-082,E04_Biblioteca_e_gest_o_de_conte_dos/VCC-083.md
+VCC-084,E04,Biblioteca e gestão de conteúdos,Persistir e integrar — Validador de conteúdos,F3,P1,Backlog,VCC-083,E04_Biblioteca_e_gest_o_de_conte_dos/VCC-084.md
+VCC-085,E04,Biblioteca e gestão de conteúdos,Persistir e integrar — Catálogo pt-PT,F3,P1,Backlog,VCC-084,E04_Biblioteca_e_gest_o_de_conte_dos/VCC-085.md
+VCC-086,E04,Biblioteca e gestão de conteúdos,Persistir e integrar — Imagens educativas,F3,P1,Backlog,VCC-085,E04_Biblioteca_e_gest_o_de_conte_dos/VCC-086.md
+VCC-087,E04,Biblioteca e gestão de conteúdos,Persistir e integrar — Pacotes de áudio,F3,P1,Backlog,VCC-086,E04_Biblioteca_e_gest_o_de_conte_dos/VCC-087.md
+VCC-088,E04,Biblioteca e gestão de conteúdos,Persistir e integrar — Importação offline,F3,P1,Backlog,VCC-087,E04_Biblioteca_e_gest_o_de_conte_dos/VCC-088.md
+VCC-089,E04,Biblioteca e gestão de conteúdos,Persistir e integrar — Versionamento de packs,F3,P1,Backlog,VCC-088,E04_Biblioteca_e_gest_o_de_conte_dos/VCC-089.md
+VCC-090,E04,Biblioteca e gestão de conteúdos,Persistir e integrar — Pesquisa e filtros,F3,P1,Backlog,VCC-089,E04_Biblioteca_e_gest_o_de_conte_dos/VCC-090.md
+VCC-091,E04,Biblioteca e gestão de conteúdos,Persistir e integrar — Metadados pedagógicos,F3,P1,Backlog,VCC-090,E04_Biblioteca_e_gest_o_de_conte_dos/VCC-091.md
+VCC-092,E04,Biblioteca e gestão de conteúdos,Persistir e integrar — Revisão editorial,F3,P1,Backlog,VCC-091,E04_Biblioteca_e_gest_o_de_conte_dos/VCC-092.md
+VCC-093,E05,"Áudio, TTS e gravação de voz",Implementar — Motor de reprodução,F2,P1,Backlog,VCC-001,E05_udio_TTS_e_grava_o_de_voz/VCC-093.md
+VCC-094,E05,"Áudio, TTS e gravação de voz",Implementar — Voz TTS pt-PT,F2,P1,Backlog,VCC-001,E05_udio_TTS_e_grava_o_de_voz/VCC-094.md
+VCC-095,E05,"Áudio, TTS e gravação de voz",Implementar — Seleção de voz,F2,P1,Backlog,VCC-001,E05_udio_TTS_e_grava_o_de_voz/VCC-095.md
+VCC-096,E05,"Áudio, TTS e gravação de voz",Implementar — Gravação local,F2,P1,Backlog,VCC-001,E05_udio_TTS_e_grava_o_de_voz/VCC-096.md
+VCC-097,E05,"Áudio, TTS e gravação de voz",Implementar — Reprodução de tentativas,F2,P1,Backlog,VCC-001,E05_udio_TTS_e_grava_o_de_voz/VCC-097.md
+VCC-098,E05,"Áudio, TTS e gravação de voz",Implementar — Comparação de gravações,F2,P1,Backlog,VCC-001,E05_udio_TTS_e_grava_o_de_voz/VCC-098.md
+VCC-099,E05,"Áudio, TTS e gravação de voz",Implementar — Gestão de ficheiros áudio,F2,P1,Backlog,VCC-001,E05_udio_TTS_e_grava_o_de_voz/VCC-099.md
+VCC-100,E05,"Áudio, TTS e gravação de voz",Implementar — Controlos de microfone,F2,P1,Backlog,VCC-001,E05_udio_TTS_e_grava_o_de_voz/VCC-100.md
+VCC-101,E05,"Áudio, TTS e gravação de voz",Implementar — Acessibilidade auditiva,F2,P1,Backlog,VCC-001,E05_udio_TTS_e_grava_o_de_voz/VCC-101.md
+VCC-102,E05,"Áudio, TTS e gravação de voz",Criar interface — Motor de reprodução,F2,P1,Backlog,VCC-101,E05_udio_TTS_e_grava_o_de_voz/VCC-102.md
+VCC-103,E05,"Áudio, TTS e gravação de voz",Criar interface — Voz TTS pt-PT,F2,P1,Backlog,VCC-102,E05_udio_TTS_e_grava_o_de_voz/VCC-103.md
+VCC-104,E05,"Áudio, TTS e gravação de voz",Criar interface — Seleção de voz,F2,P1,Backlog,VCC-103,E05_udio_TTS_e_grava_o_de_voz/VCC-104.md
+VCC-105,E05,"Áudio, TTS e gravação de voz",Criar interface — Gravação local,F2,P1,Backlog,VCC-104,E05_udio_TTS_e_grava_o_de_voz/VCC-105.md
+VCC-106,E05,"Áudio, TTS e gravação de voz",Criar interface — Reprodução de tentativas,F2,P1,Backlog,VCC-105,E05_udio_TTS_e_grava_o_de_voz/VCC-106.md
+VCC-107,E05,"Áudio, TTS e gravação de voz",Criar interface — Comparação de gravações,F2,P1,Backlog,VCC-106,E05_udio_TTS_e_grava_o_de_voz/VCC-107.md
+VCC-108,E05,"Áudio, TTS e gravação de voz",Criar interface — Gestão de ficheiros áudio,F2,P1,Backlog,VCC-107,E05_udio_TTS_e_grava_o_de_voz/VCC-108.md
+VCC-109,E05,"Áudio, TTS e gravação de voz",Criar interface — Controlos de microfone,F2,P1,Backlog,VCC-108,E05_udio_TTS_e_grava_o_de_voz/VCC-109.md
+VCC-110,E05,"Áudio, TTS e gravação de voz",Criar interface — Acessibilidade auditiva,F2,P1,Backlog,VCC-109,E05_udio_TTS_e_grava_o_de_voz/VCC-110.md
+VCC-111,E05,"Áudio, TTS e gravação de voz",Persistir e integrar — Motor de reprodução,F2,P1,Backlog,VCC-110,E05_udio_TTS_e_grava_o_de_voz/VCC-111.md
+VCC-112,E05,"Áudio, TTS e gravação de voz",Persistir e integrar — Voz TTS pt-PT,F2,P1,Backlog,VCC-111,E05_udio_TTS_e_grava_o_de_voz/VCC-112.md
+VCC-113,E05,"Áudio, TTS e gravação de voz",Persistir e integrar — Seleção de voz,F2,P1,Backlog,VCC-112,E05_udio_TTS_e_grava_o_de_voz/VCC-113.md
+VCC-114,E05,"Áudio, TTS e gravação de voz",Persistir e integrar — Gravação local,F2,P1,Backlog,VCC-113,E05_udio_TTS_e_grava_o_de_voz/VCC-114.md
+VCC-115,E05,"Áudio, TTS e gravação de voz",Persistir e integrar — Reprodução de tentativas,F2,P1,Backlog,VCC-114,E05_udio_TTS_e_grava_o_de_voz/VCC-115.md
+VCC-116,E05,"Áudio, TTS e gravação de voz",Persistir e integrar — Comparação de gravações,F2,P1,Backlog,VCC-115,E05_udio_TTS_e_grava_o_de_voz/VCC-116.md
+VCC-117,E05,"Áudio, TTS e gravação de voz",Persistir e integrar — Gestão de ficheiros áudio,F2,P1,Backlog,VCC-116,E05_udio_TTS_e_grava_o_de_voz/VCC-117.md
+VCC-118,E05,"Áudio, TTS e gravação de voz",Persistir e integrar — Controlos de microfone,F2,P1,Backlog,VCC-117,E05_udio_TTS_e_grava_o_de_voz/VCC-118.md
+VCC-119,E05,"Áudio, TTS e gravação de voz",Persistir e integrar — Acessibilidade auditiva,F2,P1,Backlog,VCC-118,E05_udio_TTS_e_grava_o_de_voz/VCC-119.md
+VCC-120,E05,"Áudio, TTS e gravação de voz",Testar e validar — Motor de reprodução,F2,P1,Backlog,VCC-119,E05_udio_TTS_e_grava_o_de_voz/VCC-120.md
+VCC-121,E06,Motor de exercícios,Implementar — Modelo de exercício,F1,P0,Backlog,VCC-001,E06_Motor_de_exerc_cios/VCC-121.md
+VCC-122,E06,Motor de exercícios,Implementar — Motor de perguntas,F1,P0,Backlog,VCC-001,E06_Motor_de_exerc_cios/VCC-122.md
+VCC-123,E06,Motor de exercícios,Implementar — Respostas de escolha única,F1,P0,Backlog,VCC-001,E06_Motor_de_exerc_cios/VCC-123.md
+VCC-124,E06,Motor de exercícios,Implementar — Respostas de associação,F1,P0,Backlog,VCC-001,E06_Motor_de_exerc_cios/VCC-124.md
+VCC-125,E06,Motor de exercícios,Implementar — Feedback positivo,F1,P0,Backlog,VCC-001,E06_Motor_de_exerc_cios/VCC-125.md
+VCC-126,E06,Motor de exercícios,Implementar — Dificuldade progressiva,F1,P0,Backlog,VCC-001,E06_Motor_de_exerc_cios/VCC-126.md
+VCC-127,E06,Motor de exercícios,Implementar — Persistência de tentativas,F1,P0,Backlog,VCC-001,E06_Motor_de_exerc_cios/VCC-127.md
+VCC-128,E06,Motor de exercícios,Implementar — Retoma de exercício,F1,P0,Backlog,VCC-001,E06_Motor_de_exerc_cios/VCC-128.md
+VCC-129,E06,Motor de exercícios,Implementar — Pontuação não clínica,F1,P0,Backlog,VCC-001,E06_Motor_de_exerc_cios/VCC-129.md
+VCC-130,E06,Motor de exercícios,Criar interface — Modelo de exercício,F1,P0,Backlog,VCC-129,E06_Motor_de_exerc_cios/VCC-130.md
+VCC-131,E06,Motor de exercícios,Criar interface — Motor de perguntas,F1,P0,Backlog,VCC-130,E06_Motor_de_exerc_cios/VCC-131.md
+VCC-132,E06,Motor de exercícios,Criar interface — Respostas de escolha única,F1,P0,Backlog,VCC-131,E06_Motor_de_exerc_cios/VCC-132.md
+VCC-133,E06,Motor de exercícios,Criar interface — Respostas de associação,F1,P0,Backlog,VCC-132,E06_Motor_de_exerc_cios/VCC-133.md
+VCC-134,E06,Motor de exercícios,Criar interface — Feedback positivo,F1,P0,Backlog,VCC-133,E06_Motor_de_exerc_cios/VCC-134.md
+VCC-135,E06,Motor de exercícios,Criar interface — Dificuldade progressiva,F1,P0,Backlog,VCC-134,E06_Motor_de_exerc_cios/VCC-135.md
+VCC-136,E06,Motor de exercícios,Criar interface — Persistência de tentativas,F1,P0,Backlog,VCC-135,E06_Motor_de_exerc_cios/VCC-136.md
+VCC-137,E06,Motor de exercícios,Criar interface — Retoma de exercício,F1,P0,Backlog,VCC-136,E06_Motor_de_exerc_cios/VCC-137.md
+VCC-138,E06,Motor de exercícios,Criar interface — Pontuação não clínica,F1,P0,Backlog,VCC-137,E06_Motor_de_exerc_cios/VCC-138.md
+VCC-139,E06,Motor de exercícios,Persistir e integrar — Modelo de exercício,F3,P1,Backlog,VCC-138,E06_Motor_de_exerc_cios/VCC-139.md
+VCC-140,E06,Motor de exercícios,Persistir e integrar — Motor de perguntas,F3,P1,Backlog,VCC-139,E06_Motor_de_exerc_cios/VCC-140.md
+VCC-141,E06,Motor de exercícios,Persistir e integrar — Respostas de escolha única,F3,P1,Backlog,VCC-140,E06_Motor_de_exerc_cios/VCC-141.md
+VCC-142,E06,Motor de exercícios,Persistir e integrar — Respostas de associação,F3,P1,Backlog,VCC-141,E06_Motor_de_exerc_cios/VCC-142.md
+VCC-143,E06,Motor de exercícios,Persistir e integrar — Feedback positivo,F3,P1,Backlog,VCC-142,E06_Motor_de_exerc_cios/VCC-143.md
+VCC-144,E06,Motor de exercícios,Persistir e integrar — Dificuldade progressiva,F3,P1,Backlog,VCC-143,E06_Motor_de_exerc_cios/VCC-144.md
+VCC-145,E06,Motor de exercícios,Persistir e integrar — Persistência de tentativas,F3,P1,Backlog,VCC-144,E06_Motor_de_exerc_cios/VCC-145.md
+VCC-146,E06,Motor de exercícios,Persistir e integrar — Retoma de exercício,F3,P1,Backlog,VCC-145,E06_Motor_de_exerc_cios/VCC-146.md
+VCC-147,E07,Jogos educativos e gamificação,Implementar — Qual é a palavra?,F1,P0,Backlog,VCC-001,E07_Jogos_educativos_e_gamifica_o/VCC-147.md
+VCC-148,E07,Jogos educativos e gamificação,Implementar — Encontra a rima,F1,P0,Backlog,VCC-001,E07_Jogos_educativos_e_gamifica_o/VCC-148.md
+VCC-149,E07,Jogos educativos e gamificação,Implementar — Constrói a palavra,F1,P0,Backlog,VCC-001,E07_Jogos_educativos_e_gamifica_o/VCC-149.md
+VCC-150,E07,Jogos educativos e gamificação,Implementar — Cartões A/B/C,F1,P0,Backlog,VCC-001,E07_Jogos_educativos_e_gamifica_o/VCC-150.md
+VCC-151,E07,Jogos educativos e gamificação,Implementar — Memória auditiva,F1,P0,Backlog,VCC-001,E07_Jogos_educativos_e_gamifica_o/VCC-151.md
+VCC-152,E07,Jogos educativos e gamificação,Implementar — Pares imagem-som,F1,P0,Backlog,VCC-001,E07_Jogos_educativos_e_gamifica_o/VCC-152.md
+VCC-153,E07,Jogos educativos e gamificação,Implementar — Sequência de imagens,F1,P0,Backlog,VCC-001,E07_Jogos_educativos_e_gamifica_o/VCC-153.md
+VCC-154,E07,Jogos educativos e gamificação,Implementar — Caça ao som inicial,F1,P0,Backlog,VCC-001,E07_Jogos_educativos_e_gamifica_o/VCC-154.md
+VCC-155,E07,Jogos educativos e gamificação,Implementar — Recompensas visuais,F1,P0,Backlog,VCC-001,E07_Jogos_educativos_e_gamifica_o/VCC-155.md
+VCC-156,E07,Jogos educativos e gamificação,Implementar — Progressão por níveis,F1,P0,Backlog,VCC-001,E07_Jogos_educativos_e_gamifica_o/VCC-156.md
+VCC-157,E07,Jogos educativos e gamificação,Implementar — Modo livre,F1,P0,Backlog,VCC-001,E07_Jogos_educativos_e_gamifica_o/VCC-157.md
+VCC-158,E07,Jogos educativos e gamificação,Implementar — Modo orientado,F1,P0,Backlog,VCC-001,E07_Jogos_educativos_e_gamifica_o/VCC-158.md
+VCC-159,E07,Jogos educativos e gamificação,Criar interface — Qual é a palavra?,F1,P0,Backlog,VCC-158,E07_Jogos_educativos_e_gamifica_o/VCC-159.md
+VCC-160,E07,Jogos educativos e gamificação,Criar interface — Encontra a rima,F1,P0,Backlog,VCC-159,E07_Jogos_educativos_e_gamifica_o/VCC-160.md
+VCC-161,E07,Jogos educativos e gamificação,Criar interface — Constrói a palavra,F1,P0,Backlog,VCC-160,E07_Jogos_educativos_e_gamifica_o/VCC-161.md
+VCC-162,E07,Jogos educativos e gamificação,Criar interface — Cartões A/B/C,F1,P0,Backlog,VCC-161,E07_Jogos_educativos_e_gamifica_o/VCC-162.md
+VCC-163,E07,Jogos educativos e gamificação,Criar interface — Memória auditiva,F1,P0,Backlog,VCC-162,E07_Jogos_educativos_e_gamifica_o/VCC-163.md
+VCC-164,E07,Jogos educativos e gamificação,Criar interface — Pares imagem-som,F1,P0,Backlog,VCC-163,E07_Jogos_educativos_e_gamifica_o/VCC-164.md
+VCC-165,E07,Jogos educativos e gamificação,Criar interface — Sequência de imagens,F1,P0,Backlog,VCC-164,E07_Jogos_educativos_e_gamifica_o/VCC-165.md
+VCC-166,E07,Jogos educativos e gamificação,Criar interface — Caça ao som inicial,F1,P0,Backlog,VCC-165,E07_Jogos_educativos_e_gamifica_o/VCC-166.md
+VCC-167,E07,Jogos educativos e gamificação,Criar interface — Recompensas visuais,F1,P0,Backlog,VCC-166,E07_Jogos_educativos_e_gamifica_o/VCC-167.md
+VCC-168,E07,Jogos educativos e gamificação,Criar interface — Progressão por níveis,F1,P0,Backlog,VCC-167,E07_Jogos_educativos_e_gamifica_o/VCC-168.md
+VCC-169,E07,Jogos educativos e gamificação,Criar interface — Modo livre,F1,P0,Backlog,VCC-168,E07_Jogos_educativos_e_gamifica_o/VCC-169.md
+VCC-170,E07,Jogos educativos e gamificação,Criar interface — Modo orientado,F1,P0,Backlog,VCC-169,E07_Jogos_educativos_e_gamifica_o/VCC-170.md
+VCC-171,E07,Jogos educativos e gamificação,Persistir e integrar — Qual é a palavra?,F3,P1,Backlog,VCC-170,E07_Jogos_educativos_e_gamifica_o/VCC-171.md
+VCC-172,E07,Jogos educativos e gamificação,Persistir e integrar — Encontra a rima,F3,P1,Backlog,VCC-171,E07_Jogos_educativos_e_gamifica_o/VCC-172.md
+VCC-173,E07,Jogos educativos e gamificação,Persistir e integrar — Constrói a palavra,F3,P1,Backlog,VCC-172,E07_Jogos_educativos_e_gamifica_o/VCC-173.md
+VCC-174,E07,Jogos educativos e gamificação,Persistir e integrar — Cartões A/B/C,F3,P1,Backlog,VCC-173,E07_Jogos_educativos_e_gamifica_o/VCC-174.md
+VCC-175,E07,Jogos educativos e gamificação,Persistir e integrar — Memória auditiva,F3,P1,Backlog,VCC-174,E07_Jogos_educativos_e_gamifica_o/VCC-175.md
+VCC-176,E07,Jogos educativos e gamificação,Persistir e integrar — Pares imagem-som,F3,P1,Backlog,VCC-175,E07_Jogos_educativos_e_gamifica_o/VCC-176.md
+VCC-177,E07,Jogos educativos e gamificação,Persistir e integrar — Sequência de imagens,F3,P1,Backlog,VCC-176,E07_Jogos_educativos_e_gamifica_o/VCC-177.md
+VCC-178,E07,Jogos educativos e gamificação,Persistir e integrar — Caça ao som inicial,F3,P1,Backlog,VCC-177,E07_Jogos_educativos_e_gamifica_o/VCC-178.md
+VCC-179,E07,Jogos educativos e gamificação,Persistir e integrar — Recompensas visuais,F3,P1,Backlog,VCC-178,E07_Jogos_educativos_e_gamifica_o/VCC-179.md
+VCC-180,E07,Jogos educativos e gamificação,Persistir e integrar — Progressão por níveis,F3,P1,Backlog,VCC-179,E07_Jogos_educativos_e_gamifica_o/VCC-180.md
+VCC-181,E07,Jogos educativos e gamificação,Persistir e integrar — Modo livre,F3,P1,Backlog,VCC-180,E07_Jogos_educativos_e_gamifica_o/VCC-181.md
+VCC-182,E07,Jogos educativos e gamificação,Persistir e integrar — Modo orientado,F3,P1,Backlog,VCC-181,E07_Jogos_educativos_e_gamifica_o/VCC-182.md
+VCC-183,E08,"Fala, linguagem, leitura e escrita",Implementar — Articulação de fonemas,F3,P1,Backlog,VCC-001,E08_Fala_linguagem_leitura_e_escrita/VCC-183.md
+VCC-184,E08,"Fala, linguagem, leitura e escrita",Implementar — Pares mínimos,F3,P1,Backlog,VCC-001,E08_Fala_linguagem_leitura_e_escrita/VCC-184.md
+VCC-185,E08,"Fala, linguagem, leitura e escrita",Implementar — Discriminação auditiva,F3,P1,Backlog,VCC-001,E08_Fala_linguagem_leitura_e_escrita/VCC-185.md
+VCC-186,E08,"Fala, linguagem, leitura e escrita",Implementar — Segmentação silábica,F3,P1,Backlog,VCC-001,E08_Fala_linguagem_leitura_e_escrita/VCC-186.md
+VCC-187,E08,"Fala, linguagem, leitura e escrita",Implementar — Consciência de rimas,F3,P1,Backlog,VCC-001,E08_Fala_linguagem_leitura_e_escrita/VCC-187.md
+VCC-188,E08,"Fala, linguagem, leitura e escrita",Implementar — Identificação de fonemas,F3,P1,Backlog,VCC-001,E08_Fala_linguagem_leitura_e_escrita/VCC-188.md
+VCC-189,E08,"Fala, linguagem, leitura e escrita",Implementar — Vocabulário por categorias,F3,P1,Backlog,VCC-001,E08_Fala_linguagem_leitura_e_escrita/VCC-189.md
+VCC-190,E08,"Fala, linguagem, leitura e escrita",Implementar — Nomeação de imagens,F3,P1,Backlog,VCC-001,E08_Fala_linguagem_leitura_e_escrita/VCC-190.md
+VCC-191,E08,"Fala, linguagem, leitura e escrita",Implementar — Compreensão de instruções,F3,P1,Backlog,VCC-001,E08_Fala_linguagem_leitura_e_escrita/VCC-191.md
+VCC-192,E08,"Fala, linguagem, leitura e escrita",Implementar — Construção frásica,F3,P1,Backlog,VCC-001,E08_Fala_linguagem_leitura_e_escrita/VCC-192.md
+VCC-193,E08,"Fala, linguagem, leitura e escrita",Implementar — Morfossintaxe,F3,P1,Backlog,VCC-001,E08_Fala_linguagem_leitura_e_escrita/VCC-193.md
+VCC-194,E08,"Fala, linguagem, leitura e escrita",Implementar — Sequências narrativas,F3,P1,Backlog,VCC-001,E08_Fala_linguagem_leitura_e_escrita/VCC-194.md
+VCC-195,E08,"Fala, linguagem, leitura e escrita",Implementar — Comunicação funcional,F3,P1,Backlog,VCC-001,E08_Fala_linguagem_leitura_e_escrita/VCC-195.md
+VCC-196,E08,"Fala, linguagem, leitura e escrita",Implementar — Associação grafema-fonema,F3,P1,Backlog,VCC-001,E08_Fala_linguagem_leitura_e_escrita/VCC-196.md
+VCC-197,E08,"Fala, linguagem, leitura e escrita",Implementar — Pré-leitura,F3,P1,Backlog,VCC-001,E08_Fala_linguagem_leitura_e_escrita/VCC-197.md
+VCC-198,E08,"Fala, linguagem, leitura e escrita",Implementar — Leitura de palavras,F3,P1,Backlog,VCC-001,E08_Fala_linguagem_leitura_e_escrita/VCC-198.md
+VCC-199,E08,"Fala, linguagem, leitura e escrita",Implementar — Escrita guiada,F3,P1,Backlog,VCC-001,E08_Fala_linguagem_leitura_e_escrita/VCC-199.md
+VCC-200,E08,"Fala, linguagem, leitura e escrita",Implementar — Exercícios de compreensão,F3,P1,Backlog,VCC-001,E08_Fala_linguagem_leitura_e_escrita/VCC-200.md
+VCC-201,E08,"Fala, linguagem, leitura e escrita",Criar interface — Articulação de fonemas,F3,P1,Backlog,VCC-200,E08_Fala_linguagem_leitura_e_escrita/VCC-201.md
+VCC-202,E08,"Fala, linguagem, leitura e escrita",Criar interface — Pares mínimos,F3,P1,Backlog,VCC-201,E08_Fala_linguagem_leitura_e_escrita/VCC-202.md
+VCC-203,E08,"Fala, linguagem, leitura e escrita",Criar interface — Discriminação auditiva,F3,P1,Backlog,VCC-202,E08_Fala_linguagem_leitura_e_escrita/VCC-203.md
+VCC-204,E08,"Fala, linguagem, leitura e escrita",Criar interface — Segmentação silábica,F3,P1,Backlog,VCC-203,E08_Fala_linguagem_leitura_e_escrita/VCC-204.md
+VCC-205,E08,"Fala, linguagem, leitura e escrita",Criar interface — Consciência de rimas,F3,P1,Backlog,VCC-204,E08_Fala_linguagem_leitura_e_escrita/VCC-205.md
+VCC-206,E08,"Fala, linguagem, leitura e escrita",Criar interface — Identificação de fonemas,F3,P1,Backlog,VCC-205,E08_Fala_linguagem_leitura_e_escrita/VCC-206.md
+VCC-207,E08,"Fala, linguagem, leitura e escrita",Criar interface — Vocabulário por categorias,F3,P1,Backlog,VCC-206,E08_Fala_linguagem_leitura_e_escrita/VCC-207.md
+VCC-208,E08,"Fala, linguagem, leitura e escrita",Criar interface — Nomeação de imagens,F3,P1,Backlog,VCC-207,E08_Fala_linguagem_leitura_e_escrita/VCC-208.md
+VCC-209,E08,"Fala, linguagem, leitura e escrita",Criar interface — Compreensão de instruções,F3,P1,Backlog,VCC-208,E08_Fala_linguagem_leitura_e_escrita/VCC-209.md
+VCC-210,E08,"Fala, linguagem, leitura e escrita",Criar interface — Construção frásica,F3,P1,Backlog,VCC-209,E08_Fala_linguagem_leitura_e_escrita/VCC-210.md
+VCC-211,E08,"Fala, linguagem, leitura e escrita",Criar interface — Morfossintaxe,F3,P1,Backlog,VCC-210,E08_Fala_linguagem_leitura_e_escrita/VCC-211.md
+VCC-212,E08,"Fala, linguagem, leitura e escrita",Criar interface — Sequências narrativas,F3,P1,Backlog,VCC-211,E08_Fala_linguagem_leitura_e_escrita/VCC-212.md
+VCC-213,E08,"Fala, linguagem, leitura e escrita",Criar interface — Comunicação funcional,F3,P1,Backlog,VCC-212,E08_Fala_linguagem_leitura_e_escrita/VCC-213.md
+VCC-214,E08,"Fala, linguagem, leitura e escrita",Criar interface — Associação grafema-fonema,F3,P1,Backlog,VCC-213,E08_Fala_linguagem_leitura_e_escrita/VCC-214.md
+VCC-215,E08,"Fala, linguagem, leitura e escrita",Criar interface — Pré-leitura,F3,P1,Backlog,VCC-214,E08_Fala_linguagem_leitura_e_escrita/VCC-215.md
+VCC-216,E08,"Fala, linguagem, leitura e escrita",Criar interface — Leitura de palavras,F3,P1,Backlog,VCC-215,E08_Fala_linguagem_leitura_e_escrita/VCC-216.md
+VCC-217,E08,"Fala, linguagem, leitura e escrita",Criar interface — Escrita guiada,F3,P1,Backlog,VCC-216,E08_Fala_linguagem_leitura_e_escrita/VCC-217.md
+VCC-218,E08,"Fala, linguagem, leitura e escrita",Criar interface — Exercícios de compreensão,F3,P1,Backlog,VCC-217,E08_Fala_linguagem_leitura_e_escrita/VCC-218.md
+VCC-219,E08,"Fala, linguagem, leitura e escrita",Persistir e integrar — Articulação de fonemas,F3,P1,Backlog,VCC-218,E08_Fala_linguagem_leitura_e_escrita/VCC-219.md
+VCC-220,E08,"Fala, linguagem, leitura e escrita",Persistir e integrar — Pares mínimos,F3,P1,Backlog,VCC-219,E08_Fala_linguagem_leitura_e_escrita/VCC-220.md
+VCC-221,E08,"Fala, linguagem, leitura e escrita",Persistir e integrar — Discriminação auditiva,F3,P1,Backlog,VCC-220,E08_Fala_linguagem_leitura_e_escrita/VCC-221.md
+VCC-222,E08,"Fala, linguagem, leitura e escrita",Persistir e integrar — Segmentação silábica,F3,P1,Backlog,VCC-221,E08_Fala_linguagem_leitura_e_escrita/VCC-222.md
+VCC-223,E08,"Fala, linguagem, leitura e escrita",Persistir e integrar — Consciência de rimas,F3,P1,Backlog,VCC-222,E08_Fala_linguagem_leitura_e_escrita/VCC-223.md
+VCC-224,E08,"Fala, linguagem, leitura e escrita",Persistir e integrar — Identificação de fonemas,F3,P1,Backlog,VCC-223,E08_Fala_linguagem_leitura_e_escrita/VCC-224.md
+VCC-225,E08,"Fala, linguagem, leitura e escrita",Persistir e integrar — Vocabulário por categorias,F3,P1,Backlog,VCC-224,E08_Fala_linguagem_leitura_e_escrita/VCC-225.md
+VCC-226,E08,"Fala, linguagem, leitura e escrita",Persistir e integrar — Nomeação de imagens,F3,P1,Backlog,VCC-225,E08_Fala_linguagem_leitura_e_escrita/VCC-226.md
+VCC-227,E08,"Fala, linguagem, leitura e escrita",Persistir e integrar — Compreensão de instruções,F3,P1,Backlog,VCC-226,E08_Fala_linguagem_leitura_e_escrita/VCC-227.md
+VCC-228,E08,"Fala, linguagem, leitura e escrita",Persistir e integrar — Construção frásica,F3,P1,Backlog,VCC-227,E08_Fala_linguagem_leitura_e_escrita/VCC-228.md
+VCC-229,E08,"Fala, linguagem, leitura e escrita",Persistir e integrar — Morfossintaxe,F3,P1,Backlog,VCC-228,E08_Fala_linguagem_leitura_e_escrita/VCC-229.md
+VCC-230,E08,"Fala, linguagem, leitura e escrita",Persistir e integrar — Sequências narrativas,F3,P1,Backlog,VCC-229,E08_Fala_linguagem_leitura_e_escrita/VCC-230.md
+VCC-231,E08,"Fala, linguagem, leitura e escrita",Persistir e integrar — Comunicação funcional,F3,P1,Backlog,VCC-230,E08_Fala_linguagem_leitura_e_escrita/VCC-231.md
+VCC-232,E08,"Fala, linguagem, leitura e escrita",Persistir e integrar — Associação grafema-fonema,F3,P1,Backlog,VCC-231,E08_Fala_linguagem_leitura_e_escrita/VCC-232.md
+VCC-233,E08,"Fala, linguagem, leitura e escrita",Persistir e integrar — Pré-leitura,F3,P1,Backlog,VCC-232,E08_Fala_linguagem_leitura_e_escrita/VCC-233.md
+VCC-234,E08,"Fala, linguagem, leitura e escrita",Persistir e integrar — Leitura de palavras,F3,P1,Backlog,VCC-233,E08_Fala_linguagem_leitura_e_escrita/VCC-234.md
+VCC-235,E09,Sessões e planos personalizados,Implementar — Sessão de treino,F4,P1,Backlog,VCC-001,E09_Sess_es_e_planos_personalizados/VCC-235.md
+VCC-236,E09,Sessões e planos personalizados,Implementar — Objetivos de aprendizagem,F4,P1,Backlog,VCC-001,E09_Sess_es_e_planos_personalizados/VCC-236.md
+VCC-237,E09,Sessões e planos personalizados,Implementar — Plano semanal,F4,P1,Backlog,VCC-001,E09_Sess_es_e_planos_personalizados/VCC-237.md
+VCC-238,E09,Sessões e planos personalizados,Implementar — Atribuição de exercícios,F4,P1,Backlog,VCC-001,E09_Sess_es_e_planos_personalizados/VCC-238.md
+VCC-239,E09,Sessões e planos personalizados,Implementar — Histórico de sessões,F4,P1,Backlog,VCC-001,E09_Sess_es_e_planos_personalizados/VCC-239.md
+VCC-240,E09,Sessões e planos personalizados,Implementar — Atividades para casa,F4,P1,Backlog,VCC-001,E09_Sess_es_e_planos_personalizados/VCC-240.md
+VCC-241,E09,Sessões e planos personalizados,Implementar — Lembretes locais,F4,P1,Backlog,VCC-001,E09_Sess_es_e_planos_personalizados/VCC-241.md
+VCC-242,E09,Sessões e planos personalizados,Criar interface — Sessão de treino,F4,P1,Backlog,VCC-241,E09_Sess_es_e_planos_personalizados/VCC-242.md
+VCC-243,E09,Sessões e planos personalizados,Criar interface — Objetivos de aprendizagem,F4,P1,Backlog,VCC-242,E09_Sess_es_e_planos_personalizados/VCC-243.md
+VCC-244,E09,Sessões e planos personalizados,Criar interface — Plano semanal,F4,P1,Backlog,VCC-243,E09_Sess_es_e_planos_personalizados/VCC-244.md
+VCC-245,E09,Sessões e planos personalizados,Criar interface — Atribuição de exercícios,F4,P1,Backlog,VCC-244,E09_Sess_es_e_planos_personalizados/VCC-245.md
+VCC-246,E09,Sessões e planos personalizados,Criar interface — Histórico de sessões,F4,P1,Backlog,VCC-245,E09_Sess_es_e_planos_personalizados/VCC-246.md
+VCC-247,E09,Sessões e planos personalizados,Criar interface — Atividades para casa,F4,P1,Backlog,VCC-246,E09_Sess_es_e_planos_personalizados/VCC-247.md
+VCC-248,E09,Sessões e planos personalizados,Criar interface — Lembretes locais,F4,P1,Backlog,VCC-247,E09_Sess_es_e_planos_personalizados/VCC-248.md
+VCC-249,E09,Sessões e planos personalizados,Persistir e integrar — Sessão de treino,F4,P1,Backlog,VCC-248,E09_Sess_es_e_planos_personalizados/VCC-249.md
+VCC-250,E09,Sessões e planos personalizados,Persistir e integrar — Objetivos de aprendizagem,F4,P1,Backlog,VCC-249,E09_Sess_es_e_planos_personalizados/VCC-250.md
+VCC-251,E09,Sessões e planos personalizados,Persistir e integrar — Plano semanal,F4,P1,Backlog,VCC-250,E09_Sess_es_e_planos_personalizados/VCC-251.md
+VCC-252,E09,Sessões e planos personalizados,Persistir e integrar — Atribuição de exercícios,F4,P1,Backlog,VCC-251,E09_Sess_es_e_planos_personalizados/VCC-252.md
+VCC-253,E09,Sessões e planos personalizados,Persistir e integrar — Histórico de sessões,F4,P1,Backlog,VCC-252,E09_Sess_es_e_planos_personalizados/VCC-253.md
+VCC-254,E09,Sessões e planos personalizados,Persistir e integrar — Atividades para casa,F4,P1,Backlog,VCC-253,E09_Sess_es_e_planos_personalizados/VCC-254.md
+VCC-255,E10,Área dos pais e terapeutas,Implementar — Dashboard parental,F5,P2,Backlog,VCC-001,E10_rea_dos_pais_e_terapeutas/VCC-255.md
+VCC-256,E10,Área dos pais e terapeutas,Implementar — Relatórios de evolução,F5,P2,Backlog,VCC-001,E10_rea_dos_pais_e_terapeutas/VCC-256.md
+VCC-257,E10,Área dos pais e terapeutas,Implementar — Área do terapeuta,F5,P2,Backlog,VCC-001,E10_rea_dos_pais_e_terapeutas/VCC-257.md
+VCC-258,E10,Área dos pais e terapeutas,Implementar — Observações de sessão,F5,P2,Backlog,VCC-001,E10_rea_dos_pais_e_terapeutas/VCC-258.md
+VCC-259,E10,Área dos pais e terapeutas,Implementar — Editor de exercícios,F5,P2,Backlog,VCC-001,E10_rea_dos_pais_e_terapeutas/VCC-259.md
+VCC-260,E10,Área dos pais e terapeutas,Implementar — Exportação de relatórios,F5,P2,Backlog,VCC-001,E10_rea_dos_pais_e_terapeutas/VCC-260.md
+VCC-261,E10,Área dos pais e terapeutas,Implementar — Gestão de objetivos,F5,P2,Backlog,VCC-001,E10_rea_dos_pais_e_terapeutas/VCC-261.md
+VCC-262,E10,Área dos pais e terapeutas,Implementar — Acessibilidade do adulto,F5,P2,Backlog,VCC-001,E10_rea_dos_pais_e_terapeutas/VCC-262.md
+VCC-263,E10,Área dos pais e terapeutas,Implementar — Importação de planos,F5,P2,Backlog,VCC-001,E10_rea_dos_pais_e_terapeutas/VCC-263.md
+VCC-264,E10,Área dos pais e terapeutas,Criar interface — Dashboard parental,F5,P2,Backlog,VCC-263,E10_rea_dos_pais_e_terapeutas/VCC-264.md
+VCC-265,E10,Área dos pais e terapeutas,Criar interface — Relatórios de evolução,F5,P2,Backlog,VCC-264,E10_rea_dos_pais_e_terapeutas/VCC-265.md
+VCC-266,E10,Área dos pais e terapeutas,Criar interface — Área do terapeuta,F5,P2,Backlog,VCC-265,E10_rea_dos_pais_e_terapeutas/VCC-266.md
+VCC-267,E10,Área dos pais e terapeutas,Criar interface — Observações de sessão,F5,P2,Backlog,VCC-266,E10_rea_dos_pais_e_terapeutas/VCC-267.md
+VCC-268,E10,Área dos pais e terapeutas,Criar interface — Editor de exercícios,F5,P2,Backlog,VCC-267,E10_rea_dos_pais_e_terapeutas/VCC-268.md
+VCC-269,E10,Área dos pais e terapeutas,Criar interface — Exportação de relatórios,F5,P2,Backlog,VCC-268,E10_rea_dos_pais_e_terapeutas/VCC-269.md
+VCC-270,E10,Área dos pais e terapeutas,Criar interface — Gestão de objetivos,F5,P2,Backlog,VCC-269,E10_rea_dos_pais_e_terapeutas/VCC-270.md
+VCC-271,E10,Área dos pais e terapeutas,Criar interface — Acessibilidade do adulto,F5,P2,Backlog,VCC-270,E10_rea_dos_pais_e_terapeutas/VCC-271.md
+VCC-272,E10,Área dos pais e terapeutas,Criar interface — Importação de planos,F5,P2,Backlog,VCC-271,E10_rea_dos_pais_e_terapeutas/VCC-272.md
+VCC-273,E10,Área dos pais e terapeutas,Persistir e integrar — Dashboard parental,F5,P2,Backlog,VCC-272,E10_rea_dos_pais_e_terapeutas/VCC-273.md
+VCC-274,E10,Área dos pais e terapeutas,Persistir e integrar — Relatórios de evolução,F5,P2,Backlog,VCC-273,E10_rea_dos_pais_e_terapeutas/VCC-274.md
+VCC-275,E10,Área dos pais e terapeutas,Persistir e integrar — Área do terapeuta,F5,P2,Backlog,VCC-274,E10_rea_dos_pais_e_terapeutas/VCC-275.md
+VCC-276,E10,Área dos pais e terapeutas,Persistir e integrar — Observações de sessão,F5,P2,Backlog,VCC-275,E10_rea_dos_pais_e_terapeutas/VCC-276.md
+VCC-277,E10,Área dos pais e terapeutas,Persistir e integrar — Editor de exercícios,F5,P2,Backlog,VCC-276,E10_rea_dos_pais_e_terapeutas/VCC-277.md
+VCC-278,E10,Área dos pais e terapeutas,Persistir e integrar — Exportação de relatórios,F5,P2,Backlog,VCC-277,E10_rea_dos_pais_e_terapeutas/VCC-278.md
+VCC-279,E10,Área dos pais e terapeutas,Persistir e integrar — Gestão de objetivos,F5,P2,Backlog,VCC-278,E10_rea_dos_pais_e_terapeutas/VCC-279.md
+VCC-280,E10,Área dos pais e terapeutas,Persistir e integrar — Acessibilidade do adulto,F5,P2,Backlog,VCC-279,E10_rea_dos_pais_e_terapeutas/VCC-280.md
+VCC-281,E10,Área dos pais e terapeutas,Persistir e integrar — Importação de planos,F5,P2,Backlog,VCC-280,E10_rea_dos_pais_e_terapeutas/VCC-281.md
+VCC-282,E10,Área dos pais e terapeutas,Testar e validar — Dashboard parental,F5,P2,Backlog,VCC-281,E10_rea_dos_pais_e_terapeutas/VCC-282.md
+VCC-283,E11,"Testes, qualidade e publicação",Implementar — Testes unitários,F0–F6,P2,Backlog,VCC-001,E11_Testes_qualidade_e_publica_o/VCC-283.md
+VCC-284,E11,"Testes, qualidade e publicação",Implementar — Testes de integração,F0–F6,P2,Backlog,VCC-001,E11_Testes_qualidade_e_publica_o/VCC-284.md
+VCC-285,E11,"Testes, qualidade e publicação",Implementar — Testes UI Compose,F0–F6,P2,Backlog,VCC-001,E11_Testes_qualidade_e_publica_o/VCC-285.md
+VCC-286,E11,"Testes, qualidade e publicação",Implementar — Testes offline,F0–F6,P2,Backlog,VCC-001,E11_Testes_qualidade_e_publica_o/VCC-286.md
+VCC-287,E11,"Testes, qualidade e publicação",Implementar — Testes de acessibilidade,F0–F6,P2,Backlog,VCC-001,E11_Testes_qualidade_e_publica_o/VCC-287.md
+VCC-288,E11,"Testes, qualidade e publicação",Implementar — Revisão linguística pt-PT,F0–F6,P2,Backlog,VCC-001,E11_Testes_qualidade_e_publica_o/VCC-288.md
+VCC-289,E11,"Testes, qualidade e publicação",Implementar — Revisão por terapeuta da fala,F0–F6,P2,Backlog,VCC-001,E11_Testes_qualidade_e_publica_o/VCC-289.md
+VCC-290,E11,"Testes, qualidade e publicação",Implementar — Segurança e privacidade,F0–F6,P2,Backlog,VCC-001,E11_Testes_qualidade_e_publica_o/VCC-290.md
+VCC-291,E11,"Testes, qualidade e publicação",Implementar — Build de release,F0–F6,P2,Backlog,VCC-001,E11_Testes_qualidade_e_publica_o/VCC-291.md
+VCC-292,E11,"Testes, qualidade e publicação",Criar interface — Testes unitários,F0–F6,P2,Backlog,VCC-291,E11_Testes_qualidade_e_publica_o/VCC-292.md
+VCC-293,E11,"Testes, qualidade e publicação",Criar interface — Testes de integração,F0–F6,P2,Backlog,VCC-292,E11_Testes_qualidade_e_publica_o/VCC-293.md
+VCC-294,E11,"Testes, qualidade e publicação",Criar interface — Testes UI Compose,F0–F6,P2,Backlog,VCC-293,E11_Testes_qualidade_e_publica_o/VCC-294.md
+VCC-295,E11,"Testes, qualidade e publicação",Criar interface — Testes offline,F0–F6,P2,Backlog,VCC-294,E11_Testes_qualidade_e_publica_o/VCC-295.md
+VCC-296,E11,"Testes, qualidade e publicação",Criar interface — Testes de acessibilidade,F0–F6,P2,Backlog,VCC-295,E11_Testes_qualidade_e_publica_o/VCC-296.md
+VCC-297,E11,"Testes, qualidade e publicação",Criar interface — Revisão linguística pt-PT,F0–F6,P2,Backlog,VCC-296,E11_Testes_qualidade_e_publica_o/VCC-297.md
+VCC-298,E11,"Testes, qualidade e publicação",Criar interface — Revisão por terapeuta da fala,F0–F6,P2,Backlog,VCC-297,E11_Testes_qualidade_e_publica_o/VCC-298.md
+VCC-299,E11,"Testes, qualidade e publicação",Criar interface — Segurança e privacidade,F0–F6,P2,Backlog,VCC-298,E11_Testes_qualidade_e_publica_o/VCC-299.md
+VCC-300,E11,"Testes, qualidade e publicação",Criar interface — Build de release,F0–F6,P2,Backlog,VCC-299,E11_Testes_qualidade_e_publica_o/VCC-300.md

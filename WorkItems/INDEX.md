@@ -1,0 +1,330 @@
+# VCC Fala & Aprende — Backlog de 300 Work Items
+
+Backlog inicial baseado na especificação funcional. Cada Work Item tem um ficheiro Markdown próprio, critérios de aceitação e tarefas de validação.
+
+## Distribuição
+
+| Épico | Área | Quantidade |
+|---|---|---:|
+| E01 | Fundação e arquitetura Android | 24 |
+| E02 | Privacidade e segurança infantil | 22 |
+| E03 | Perfis de crianças | 16 |
+| E04 | Biblioteca e gestão de conteúdos | 30 |
+| E05 | Áudio, TTS e gravação de voz | 28 |
+| E06 | Motor de exercícios | 26 |
+| E07 | Jogos educativos e gamificação | 36 |
+| E08 | Fala, linguagem, leitura e escrita | 52 |
+| E09 | Sessões e planos personalizados | 20 |
+| E10 | Área dos pais e terapeutas | 28 |
+| E11 | Testes, qualidade e publicação | 18 |
+| **Total** | | **300** |
+
+## Notas
+
+- Fases e dependências são indicativas, não um plano de execução validado.
+- O MVP da especificação exclui análise automática da pronúncia e sincronização cloud.
+- Rever conteúdos clínicos e linguísticos com profissionais qualificados.
+- A aplicação é apoio educativo/terapêutico, não diagnóstico.
+
+## Lista de itens
+
+- [VCC-001 — Implementar — Projeto Android e Gradle](E01_Funda_o_e_arquitetura_Android/VCC-001.md) · E01 · F0 · P0
+- [VCC-002 — Implementar — Módulos Clean Architecture](E01_Funda_o_e_arquitetura_Android/VCC-002.md) · E01 · F0 · P0
+- [VCC-003 — Implementar — Navegação Compose](E01_Funda_o_e_arquitetura_Android/VCC-003.md) · E01 · F0 · P0
+- [VCC-004 — Implementar — Design system infantil](E01_Funda_o_e_arquitetura_Android/VCC-004.md) · E01 · F0 · P0
+- [VCC-005 — Implementar — Injeção de dependências](E01_Funda_o_e_arquitetura_Android/VCC-005.md) · E01 · F0 · P0
+- [VCC-006 — Implementar — Base de dados Room](E01_Funda_o_e_arquitetura_Android/VCC-006.md) · E01 · F0 · P0
+- [VCC-007 — Implementar — Pipeline CI](E01_Funda_o_e_arquitetura_Android/VCC-007.md) · E01 · F0 · P0
+- [VCC-008 — Implementar — Gestão de erros](E01_Funda_o_e_arquitetura_Android/VCC-008.md) · E01 · F0 · P0
+- [VCC-009 — Criar interface — Projeto Android e Gradle](E01_Funda_o_e_arquitetura_Android/VCC-009.md) · E01 · F0 · P0
+- [VCC-010 — Criar interface — Módulos Clean Architecture](E01_Funda_o_e_arquitetura_Android/VCC-010.md) · E01 · F0 · P0
+- [VCC-011 — Criar interface — Navegação Compose](E01_Funda_o_e_arquitetura_Android/VCC-011.md) · E01 · F0 · P0
+- [VCC-012 — Criar interface — Design system infantil](E01_Funda_o_e_arquitetura_Android/VCC-012.md) · E01 · F0 · P0
+- [VCC-013 — Criar interface — Injeção de dependências](E01_Funda_o_e_arquitetura_Android/VCC-013.md) · E01 · F0 · P0
+- [VCC-014 — Criar interface — Base de dados Room](E01_Funda_o_e_arquitetura_Android/VCC-014.md) · E01 · F0 · P0
+- [VCC-015 — Criar interface — Pipeline CI](E01_Funda_o_e_arquitetura_Android/VCC-015.md) · E01 · F0 · P0
+- [VCC-016 — Criar interface — Gestão de erros](E01_Funda_o_e_arquitetura_Android/VCC-016.md) · E01 · F0 · P0
+- [VCC-017 — Persistir e integrar — Projeto Android e Gradle](E01_Funda_o_e_arquitetura_Android/VCC-017.md) · E01 · F0 · P0
+- [VCC-018 — Persistir e integrar — Módulos Clean Architecture](E01_Funda_o_e_arquitetura_Android/VCC-018.md) · E01 · F0 · P0
+- [VCC-019 — Persistir e integrar — Navegação Compose](E01_Funda_o_e_arquitetura_Android/VCC-019.md) · E01 · F0 · P0
+- [VCC-020 — Persistir e integrar — Design system infantil](E01_Funda_o_e_arquitetura_Android/VCC-020.md) · E01 · F0 · P0
+- [VCC-021 — Persistir e integrar — Injeção de dependências](E01_Funda_o_e_arquitetura_Android/VCC-021.md) · E01 · F0 · P0
+- [VCC-022 — Persistir e integrar — Base de dados Room](E01_Funda_o_e_arquitetura_Android/VCC-022.md) · E01 · F0 · P0
+- [VCC-023 — Persistir e integrar — Pipeline CI](E01_Funda_o_e_arquitetura_Android/VCC-023.md) · E01 · F0 · P0
+- [VCC-024 — Persistir e integrar — Gestão de erros](E01_Funda_o_e_arquitetura_Android/VCC-024.md) · E01 · F0 · P0
+- [VCC-025 — Implementar — Consentimento do responsável](E02_Privacidade_e_seguran_a_infantil/VCC-025.md) · E02 · F1 · P0
+- [VCC-026 — Implementar — PIN parental](E02_Privacidade_e_seguran_a_infantil/VCC-026.md) · E02 · F1 · P0
+- [VCC-027 — Implementar — Permissões Android](E02_Privacidade_e_seguran_a_infantil/VCC-027.md) · E02 · F1 · P0
+- [VCC-028 — Implementar — Política de retenção](E02_Privacidade_e_seguran_a_infantil/VCC-028.md) · E02 · F1 · P0
+- [VCC-029 — Implementar — Eliminação de dados](E02_Privacidade_e_seguran_a_infantil/VCC-029.md) · E02 · F1 · P0
+- [VCC-030 — Implementar — Exportação segura](E02_Privacidade_e_seguran_a_infantil/VCC-030.md) · E02 · F1 · P0
+- [VCC-031 — Implementar — Proteção de gravações](E02_Privacidade_e_seguran_a_infantil/VCC-031.md) · E02 · F1 · P0
+- [VCC-032 — Implementar — Auditoria de privacidade](E02_Privacidade_e_seguran_a_infantil/VCC-032.md) · E02 · F1 · P0
+- [VCC-033 — Criar interface — Consentimento do responsável](E02_Privacidade_e_seguran_a_infantil/VCC-033.md) · E02 · F1 · P0
+- [VCC-034 — Criar interface — PIN parental](E02_Privacidade_e_seguran_a_infantil/VCC-034.md) · E02 · F1 · P0
+- [VCC-035 — Criar interface — Permissões Android](E02_Privacidade_e_seguran_a_infantil/VCC-035.md) · E02 · F1 · P0
+- [VCC-036 — Criar interface — Política de retenção](E02_Privacidade_e_seguran_a_infantil/VCC-036.md) · E02 · F1 · P0
+- [VCC-037 — Criar interface — Eliminação de dados](E02_Privacidade_e_seguran_a_infantil/VCC-037.md) · E02 · F1 · P0
+- [VCC-038 — Criar interface — Exportação segura](E02_Privacidade_e_seguran_a_infantil/VCC-038.md) · E02 · F1 · P0
+- [VCC-039 — Criar interface — Proteção de gravações](E02_Privacidade_e_seguran_a_infantil/VCC-039.md) · E02 · F1 · P0
+- [VCC-040 — Criar interface — Auditoria de privacidade](E02_Privacidade_e_seguran_a_infantil/VCC-040.md) · E02 · F1 · P0
+- [VCC-041 — Persistir e integrar — Consentimento do responsável](E02_Privacidade_e_seguran_a_infantil/VCC-041.md) · E02 · F3 · P1
+- [VCC-042 — Persistir e integrar — PIN parental](E02_Privacidade_e_seguran_a_infantil/VCC-042.md) · E02 · F3 · P1
+- [VCC-043 — Persistir e integrar — Permissões Android](E02_Privacidade_e_seguran_a_infantil/VCC-043.md) · E02 · F3 · P1
+- [VCC-044 — Persistir e integrar — Política de retenção](E02_Privacidade_e_seguran_a_infantil/VCC-044.md) · E02 · F3 · P1
+- [VCC-045 — Persistir e integrar — Eliminação de dados](E02_Privacidade_e_seguran_a_infantil/VCC-045.md) · E02 · F3 · P1
+- [VCC-046 — Persistir e integrar — Exportação segura](E02_Privacidade_e_seguran_a_infantil/VCC-046.md) · E02 · F3 · P1
+- [VCC-047 — Implementar — Criação de perfil](E03_Perfis_de_crian_as/VCC-047.md) · E03 · F1 · P0
+- [VCC-048 — Implementar — Edição de perfil](E03_Perfis_de_crian_as/VCC-048.md) · E03 · F1 · P0
+- [VCC-049 — Implementar — Avatar infantil](E03_Perfis_de_crian_as/VCC-049.md) · E03 · F1 · P0
+- [VCC-050 — Implementar — Preferências de acessibilidade](E03_Perfis_de_crian_as/VCC-050.md) · E03 · F1 · P0
+- [VCC-051 — Implementar — Troca de perfil](E03_Perfis_de_crian_as/VCC-051.md) · E03 · F1 · P0
+- [VCC-052 — Implementar — Isolamento de progresso](E03_Perfis_de_crian_as/VCC-052.md) · E03 · F1 · P0
+- [VCC-053 — Criar interface — Criação de perfil](E03_Perfis_de_crian_as/VCC-053.md) · E03 · F1 · P0
+- [VCC-054 — Criar interface — Edição de perfil](E03_Perfis_de_crian_as/VCC-054.md) · E03 · F1 · P0
+- [VCC-055 — Criar interface — Avatar infantil](E03_Perfis_de_crian_as/VCC-055.md) · E03 · F1 · P0
+- [VCC-056 — Criar interface — Preferências de acessibilidade](E03_Perfis_de_crian_as/VCC-056.md) · E03 · F1 · P0
+- [VCC-057 — Criar interface — Troca de perfil](E03_Perfis_de_crian_as/VCC-057.md) · E03 · F1 · P0
+- [VCC-058 — Criar interface — Isolamento de progresso](E03_Perfis_de_crian_as/VCC-058.md) · E03 · F1 · P0
+- [VCC-059 — Persistir e integrar — Criação de perfil](E03_Perfis_de_crian_as/VCC-059.md) · E03 · F3 · P1
+- [VCC-060 — Persistir e integrar — Edição de perfil](E03_Perfis_de_crian_as/VCC-060.md) · E03 · F3 · P1
+- [VCC-061 — Persistir e integrar — Avatar infantil](E03_Perfis_de_crian_as/VCC-061.md) · E03 · F3 · P1
+- [VCC-062 — Persistir e integrar — Preferências de acessibilidade](E03_Perfis_de_crian_as/VCC-062.md) · E03 · F3 · P1
+- [VCC-063 — Implementar — Esquema JSON de conteúdos](E04_Biblioteca_e_gest_o_de_conte_dos/VCC-063.md) · E04 · F1 · P0
+- [VCC-064 — Implementar — Validador de conteúdos](E04_Biblioteca_e_gest_o_de_conte_dos/VCC-064.md) · E04 · F1 · P0
+- [VCC-065 — Implementar — Catálogo pt-PT](E04_Biblioteca_e_gest_o_de_conte_dos/VCC-065.md) · E04 · F1 · P0
+- [VCC-066 — Implementar — Imagens educativas](E04_Biblioteca_e_gest_o_de_conte_dos/VCC-066.md) · E04 · F1 · P0
+- [VCC-067 — Implementar — Pacotes de áudio](E04_Biblioteca_e_gest_o_de_conte_dos/VCC-067.md) · E04 · F1 · P0
+- [VCC-068 — Implementar — Importação offline](E04_Biblioteca_e_gest_o_de_conte_dos/VCC-068.md) · E04 · F1 · P0
+- [VCC-069 — Implementar — Versionamento de packs](E04_Biblioteca_e_gest_o_de_conte_dos/VCC-069.md) · E04 · F1 · P0
+- [VCC-070 — Implementar — Pesquisa e filtros](E04_Biblioteca_e_gest_o_de_conte_dos/VCC-070.md) · E04 · F1 · P0
+- [VCC-071 — Implementar — Metadados pedagógicos](E04_Biblioteca_e_gest_o_de_conte_dos/VCC-071.md) · E04 · F1 · P0
+- [VCC-072 — Implementar — Revisão editorial](E04_Biblioteca_e_gest_o_de_conte_dos/VCC-072.md) · E04 · F1 · P0
+- [VCC-073 — Criar interface — Esquema JSON de conteúdos](E04_Biblioteca_e_gest_o_de_conte_dos/VCC-073.md) · E04 · F1 · P0
+- [VCC-074 — Criar interface — Validador de conteúdos](E04_Biblioteca_e_gest_o_de_conte_dos/VCC-074.md) · E04 · F1 · P0
+- [VCC-075 — Criar interface — Catálogo pt-PT](E04_Biblioteca_e_gest_o_de_conte_dos/VCC-075.md) · E04 · F1 · P0
+- [VCC-076 — Criar interface — Imagens educativas](E04_Biblioteca_e_gest_o_de_conte_dos/VCC-076.md) · E04 · F1 · P0
+- [VCC-077 — Criar interface — Pacotes de áudio](E04_Biblioteca_e_gest_o_de_conte_dos/VCC-077.md) · E04 · F1 · P0
+- [VCC-078 — Criar interface — Importação offline](E04_Biblioteca_e_gest_o_de_conte_dos/VCC-078.md) · E04 · F1 · P0
+- [VCC-079 — Criar interface — Versionamento de packs](E04_Biblioteca_e_gest_o_de_conte_dos/VCC-079.md) · E04 · F1 · P0
+- [VCC-080 — Criar interface — Pesquisa e filtros](E04_Biblioteca_e_gest_o_de_conte_dos/VCC-080.md) · E04 · F1 · P0
+- [VCC-081 — Criar interface — Metadados pedagógicos](E04_Biblioteca_e_gest_o_de_conte_dos/VCC-081.md) · E04 · F1 · P0
+- [VCC-082 — Criar interface — Revisão editorial](E04_Biblioteca_e_gest_o_de_conte_dos/VCC-082.md) · E04 · F1 · P0
+- [VCC-083 — Persistir e integrar — Esquema JSON de conteúdos](E04_Biblioteca_e_gest_o_de_conte_dos/VCC-083.md) · E04 · F3 · P1
+- [VCC-084 — Persistir e integrar — Validador de conteúdos](E04_Biblioteca_e_gest_o_de_conte_dos/VCC-084.md) · E04 · F3 · P1
+- [VCC-085 — Persistir e integrar — Catálogo pt-PT](E04_Biblioteca_e_gest_o_de_conte_dos/VCC-085.md) · E04 · F3 · P1
+- [VCC-086 — Persistir e integrar — Imagens educativas](E04_Biblioteca_e_gest_o_de_conte_dos/VCC-086.md) · E04 · F3 · P1
+- [VCC-087 — Persistir e integrar — Pacotes de áudio](E04_Biblioteca_e_gest_o_de_conte_dos/VCC-087.md) · E04 · F3 · P1
+- [VCC-088 — Persistir e integrar — Importação offline](E04_Biblioteca_e_gest_o_de_conte_dos/VCC-088.md) · E04 · F3 · P1
+- [VCC-089 — Persistir e integrar — Versionamento de packs](E04_Biblioteca_e_gest_o_de_conte_dos/VCC-089.md) · E04 · F3 · P1
+- [VCC-090 — Persistir e integrar — Pesquisa e filtros](E04_Biblioteca_e_gest_o_de_conte_dos/VCC-090.md) · E04 · F3 · P1
+- [VCC-091 — Persistir e integrar — Metadados pedagógicos](E04_Biblioteca_e_gest_o_de_conte_dos/VCC-091.md) · E04 · F3 · P1
+- [VCC-092 — Persistir e integrar — Revisão editorial](E04_Biblioteca_e_gest_o_de_conte_dos/VCC-092.md) · E04 · F3 · P1
+- [VCC-093 — Implementar — Motor de reprodução](E05_udio_TTS_e_grava_o_de_voz/VCC-093.md) · E05 · F2 · P1
+- [VCC-094 — Implementar — Voz TTS pt-PT](E05_udio_TTS_e_grava_o_de_voz/VCC-094.md) · E05 · F2 · P1
+- [VCC-095 — Implementar — Seleção de voz](E05_udio_TTS_e_grava_o_de_voz/VCC-095.md) · E05 · F2 · P1
+- [VCC-096 — Implementar — Gravação local](E05_udio_TTS_e_grava_o_de_voz/VCC-096.md) · E05 · F2 · P1
+- [VCC-097 — Implementar — Reprodução de tentativas](E05_udio_TTS_e_grava_o_de_voz/VCC-097.md) · E05 · F2 · P1
+- [VCC-098 — Implementar — Comparação de gravações](E05_udio_TTS_e_grava_o_de_voz/VCC-098.md) · E05 · F2 · P1
+- [VCC-099 — Implementar — Gestão de ficheiros áudio](E05_udio_TTS_e_grava_o_de_voz/VCC-099.md) · E05 · F2 · P1
+- [VCC-100 — Implementar — Controlos de microfone](E05_udio_TTS_e_grava_o_de_voz/VCC-100.md) · E05 · F2 · P1
+- [VCC-101 — Implementar — Acessibilidade auditiva](E05_udio_TTS_e_grava_o_de_voz/VCC-101.md) · E05 · F2 · P1
+- [VCC-102 — Criar interface — Motor de reprodução](E05_udio_TTS_e_grava_o_de_voz/VCC-102.md) · E05 · F2 · P1
+- [VCC-103 — Criar interface — Voz TTS pt-PT](E05_udio_TTS_e_grava_o_de_voz/VCC-103.md) · E05 · F2 · P1
+- [VCC-104 — Criar interface — Seleção de voz](E05_udio_TTS_e_grava_o_de_voz/VCC-104.md) · E05 · F2 · P1
+- [VCC-105 — Criar interface — Gravação local](E05_udio_TTS_e_grava_o_de_voz/VCC-105.md) · E05 · F2 · P1
+- [VCC-106 — Criar interface — Reprodução de tentativas](E05_udio_TTS_e_grava_o_de_voz/VCC-106.md) · E05 · F2 · P1
+- [VCC-107 — Criar interface — Comparação de gravações](E05_udio_TTS_e_grava_o_de_voz/VCC-107.md) · E05 · F2 · P1
+- [VCC-108 — Criar interface — Gestão de ficheiros áudio](E05_udio_TTS_e_grava_o_de_voz/VCC-108.md) · E05 · F2 · P1
+- [VCC-109 — Criar interface — Controlos de microfone](E05_udio_TTS_e_grava_o_de_voz/VCC-109.md) · E05 · F2 · P1
+- [VCC-110 — Criar interface — Acessibilidade auditiva](E05_udio_TTS_e_grava_o_de_voz/VCC-110.md) · E05 · F2 · P1
+- [VCC-111 — Persistir e integrar — Motor de reprodução](E05_udio_TTS_e_grava_o_de_voz/VCC-111.md) · E05 · F2 · P1
+- [VCC-112 — Persistir e integrar — Voz TTS pt-PT](E05_udio_TTS_e_grava_o_de_voz/VCC-112.md) · E05 · F2 · P1
+- [VCC-113 — Persistir e integrar — Seleção de voz](E05_udio_TTS_e_grava_o_de_voz/VCC-113.md) · E05 · F2 · P1
+- [VCC-114 — Persistir e integrar — Gravação local](E05_udio_TTS_e_grava_o_de_voz/VCC-114.md) · E05 · F2 · P1
+- [VCC-115 — Persistir e integrar — Reprodução de tentativas](E05_udio_TTS_e_grava_o_de_voz/VCC-115.md) · E05 · F2 · P1
+- [VCC-116 — Persistir e integrar — Comparação de gravações](E05_udio_TTS_e_grava_o_de_voz/VCC-116.md) · E05 · F2 · P1
+- [VCC-117 — Persistir e integrar — Gestão de ficheiros áudio](E05_udio_TTS_e_grava_o_de_voz/VCC-117.md) · E05 · F2 · P1
+- [VCC-118 — Persistir e integrar — Controlos de microfone](E05_udio_TTS_e_grava_o_de_voz/VCC-118.md) · E05 · F2 · P1
+- [VCC-119 — Persistir e integrar — Acessibilidade auditiva](E05_udio_TTS_e_grava_o_de_voz/VCC-119.md) · E05 · F2 · P1
+- [VCC-120 — Testar e validar — Motor de reprodução](E05_udio_TTS_e_grava_o_de_voz/VCC-120.md) · E05 · F2 · P1
+- [VCC-121 — Implementar — Modelo de exercício](E06_Motor_de_exerc_cios/VCC-121.md) · E06 · F1 · P0
+- [VCC-122 — Implementar — Motor de perguntas](E06_Motor_de_exerc_cios/VCC-122.md) · E06 · F1 · P0
+- [VCC-123 — Implementar — Respostas de escolha única](E06_Motor_de_exerc_cios/VCC-123.md) · E06 · F1 · P0
+- [VCC-124 — Implementar — Respostas de associação](E06_Motor_de_exerc_cios/VCC-124.md) · E06 · F1 · P0
+- [VCC-125 — Implementar — Feedback positivo](E06_Motor_de_exerc_cios/VCC-125.md) · E06 · F1 · P0
+- [VCC-126 — Implementar — Dificuldade progressiva](E06_Motor_de_exerc_cios/VCC-126.md) · E06 · F1 · P0
+- [VCC-127 — Implementar — Persistência de tentativas](E06_Motor_de_exerc_cios/VCC-127.md) · E06 · F1 · P0
+- [VCC-128 — Implementar — Retoma de exercício](E06_Motor_de_exerc_cios/VCC-128.md) · E06 · F1 · P0
+- [VCC-129 — Implementar — Pontuação não clínica](E06_Motor_de_exerc_cios/VCC-129.md) · E06 · F1 · P0
+- [VCC-130 — Criar interface — Modelo de exercício](E06_Motor_de_exerc_cios/VCC-130.md) · E06 · F1 · P0
+- [VCC-131 — Criar interface — Motor de perguntas](E06_Motor_de_exerc_cios/VCC-131.md) · E06 · F1 · P0
+- [VCC-132 — Criar interface — Respostas de escolha única](E06_Motor_de_exerc_cios/VCC-132.md) · E06 · F1 · P0
+- [VCC-133 — Criar interface — Respostas de associação](E06_Motor_de_exerc_cios/VCC-133.md) · E06 · F1 · P0
+- [VCC-134 — Criar interface — Feedback positivo](E06_Motor_de_exerc_cios/VCC-134.md) · E06 · F1 · P0
+- [VCC-135 — Criar interface — Dificuldade progressiva](E06_Motor_de_exerc_cios/VCC-135.md) · E06 · F1 · P0
+- [VCC-136 — Criar interface — Persistência de tentativas](E06_Motor_de_exerc_cios/VCC-136.md) · E06 · F1 · P0
+- [VCC-137 — Criar interface — Retoma de exercício](E06_Motor_de_exerc_cios/VCC-137.md) · E06 · F1 · P0
+- [VCC-138 — Criar interface — Pontuação não clínica](E06_Motor_de_exerc_cios/VCC-138.md) · E06 · F1 · P0
+- [VCC-139 — Persistir e integrar — Modelo de exercício](E06_Motor_de_exerc_cios/VCC-139.md) · E06 · F3 · P1
+- [VCC-140 — Persistir e integrar — Motor de perguntas](E06_Motor_de_exerc_cios/VCC-140.md) · E06 · F3 · P1
+- [VCC-141 — Persistir e integrar — Respostas de escolha única](E06_Motor_de_exerc_cios/VCC-141.md) · E06 · F3 · P1
+- [VCC-142 — Persistir e integrar — Respostas de associação](E06_Motor_de_exerc_cios/VCC-142.md) · E06 · F3 · P1
+- [VCC-143 — Persistir e integrar — Feedback positivo](E06_Motor_de_exerc_cios/VCC-143.md) · E06 · F3 · P1
+- [VCC-144 — Persistir e integrar — Dificuldade progressiva](E06_Motor_de_exerc_cios/VCC-144.md) · E06 · F3 · P1
+- [VCC-145 — Persistir e integrar — Persistência de tentativas](E06_Motor_de_exerc_cios/VCC-145.md) · E06 · F3 · P1
+- [VCC-146 — Persistir e integrar — Retoma de exercício](E06_Motor_de_exerc_cios/VCC-146.md) · E06 · F3 · P1
+- [VCC-147 — Implementar — Qual é a palavra?](E07_Jogos_educativos_e_gamifica_o/VCC-147.md) · E07 · F1 · P0
+- [VCC-148 — Implementar — Encontra a rima](E07_Jogos_educativos_e_gamifica_o/VCC-148.md) · E07 · F1 · P0
+- [VCC-149 — Implementar — Constrói a palavra](E07_Jogos_educativos_e_gamifica_o/VCC-149.md) · E07 · F1 · P0
+- [VCC-150 — Implementar — Cartões A/B/C](E07_Jogos_educativos_e_gamifica_o/VCC-150.md) · E07 · F1 · P0
+- [VCC-151 — Implementar — Memória auditiva](E07_Jogos_educativos_e_gamifica_o/VCC-151.md) · E07 · F1 · P0
+- [VCC-152 — Implementar — Pares imagem-som](E07_Jogos_educativos_e_gamifica_o/VCC-152.md) · E07 · F1 · P0
+- [VCC-153 — Implementar — Sequência de imagens](E07_Jogos_educativos_e_gamifica_o/VCC-153.md) · E07 · F1 · P0
+- [VCC-154 — Implementar — Caça ao som inicial](E07_Jogos_educativos_e_gamifica_o/VCC-154.md) · E07 · F1 · P0
+- [VCC-155 — Implementar — Recompensas visuais](E07_Jogos_educativos_e_gamifica_o/VCC-155.md) · E07 · F1 · P0
+- [VCC-156 — Implementar — Progressão por níveis](E07_Jogos_educativos_e_gamifica_o/VCC-156.md) · E07 · F1 · P0
+- [VCC-157 — Implementar — Modo livre](E07_Jogos_educativos_e_gamifica_o/VCC-157.md) · E07 · F1 · P0
+- [VCC-158 — Implementar — Modo orientado](E07_Jogos_educativos_e_gamifica_o/VCC-158.md) · E07 · F1 · P0
+- [VCC-159 — Criar interface — Qual é a palavra?](E07_Jogos_educativos_e_gamifica_o/VCC-159.md) · E07 · F1 · P0
+- [VCC-160 — Criar interface — Encontra a rima](E07_Jogos_educativos_e_gamifica_o/VCC-160.md) · E07 · F1 · P0
+- [VCC-161 — Criar interface — Constrói a palavra](E07_Jogos_educativos_e_gamifica_o/VCC-161.md) · E07 · F1 · P0
+- [VCC-162 — Criar interface — Cartões A/B/C](E07_Jogos_educativos_e_gamifica_o/VCC-162.md) · E07 · F1 · P0
+- [VCC-163 — Criar interface — Memória auditiva](E07_Jogos_educativos_e_gamifica_o/VCC-163.md) · E07 · F1 · P0
+- [VCC-164 — Criar interface — Pares imagem-som](E07_Jogos_educativos_e_gamifica_o/VCC-164.md) · E07 · F1 · P0
+- [VCC-165 — Criar interface — Sequência de imagens](E07_Jogos_educativos_e_gamifica_o/VCC-165.md) · E07 · F1 · P0
+- [VCC-166 — Criar interface — Caça ao som inicial](E07_Jogos_educativos_e_gamifica_o/VCC-166.md) · E07 · F1 · P0
+- [VCC-167 — Criar interface — Recompensas visuais](E07_Jogos_educativos_e_gamifica_o/VCC-167.md) · E07 · F1 · P0
+- [VCC-168 — Criar interface — Progressão por níveis](E07_Jogos_educativos_e_gamifica_o/VCC-168.md) · E07 · F1 · P0
+- [VCC-169 — Criar interface — Modo livre](E07_Jogos_educativos_e_gamifica_o/VCC-169.md) · E07 · F1 · P0
+- [VCC-170 — Criar interface — Modo orientado](E07_Jogos_educativos_e_gamifica_o/VCC-170.md) · E07 · F1 · P0
+- [VCC-171 — Persistir e integrar — Qual é a palavra?](E07_Jogos_educativos_e_gamifica_o/VCC-171.md) · E07 · F3 · P1
+- [VCC-172 — Persistir e integrar — Encontra a rima](E07_Jogos_educativos_e_gamifica_o/VCC-172.md) · E07 · F3 · P1
+- [VCC-173 — Persistir e integrar — Constrói a palavra](E07_Jogos_educativos_e_gamifica_o/VCC-173.md) · E07 · F3 · P1
+- [VCC-174 — Persistir e integrar — Cartões A/B/C](E07_Jogos_educativos_e_gamifica_o/VCC-174.md) · E07 · F3 · P1
+- [VCC-175 — Persistir e integrar — Memória auditiva](E07_Jogos_educativos_e_gamifica_o/VCC-175.md) · E07 · F3 · P1
+- [VCC-176 — Persistir e integrar — Pares imagem-som](E07_Jogos_educativos_e_gamifica_o/VCC-176.md) · E07 · F3 · P1
+- [VCC-177 — Persistir e integrar — Sequência de imagens](E07_Jogos_educativos_e_gamifica_o/VCC-177.md) · E07 · F3 · P1
+- [VCC-178 — Persistir e integrar — Caça ao som inicial](E07_Jogos_educativos_e_gamifica_o/VCC-178.md) · E07 · F3 · P1
+- [VCC-179 — Persistir e integrar — Recompensas visuais](E07_Jogos_educativos_e_gamifica_o/VCC-179.md) · E07 · F3 · P1
+- [VCC-180 — Persistir e integrar — Progressão por níveis](E07_Jogos_educativos_e_gamifica_o/VCC-180.md) · E07 · F3 · P1
+- [VCC-181 — Persistir e integrar — Modo livre](E07_Jogos_educativos_e_gamifica_o/VCC-181.md) · E07 · F3 · P1
+- [VCC-182 — Persistir e integrar — Modo orientado](E07_Jogos_educativos_e_gamifica_o/VCC-182.md) · E07 · F3 · P1
+- [VCC-183 — Implementar — Articulação de fonemas](E08_Fala_linguagem_leitura_e_escrita/VCC-183.md) · E08 · F3 · P1
+- [VCC-184 — Implementar — Pares mínimos](E08_Fala_linguagem_leitura_e_escrita/VCC-184.md) · E08 · F3 · P1
+- [VCC-185 — Implementar — Discriminação auditiva](E08_Fala_linguagem_leitura_e_escrita/VCC-185.md) · E08 · F3 · P1
+- [VCC-186 — Implementar — Segmentação silábica](E08_Fala_linguagem_leitura_e_escrita/VCC-186.md) · E08 · F3 · P1
+- [VCC-187 — Implementar — Consciência de rimas](E08_Fala_linguagem_leitura_e_escrita/VCC-187.md) · E08 · F3 · P1
+- [VCC-188 — Implementar — Identificação de fonemas](E08_Fala_linguagem_leitura_e_escrita/VCC-188.md) · E08 · F3 · P1
+- [VCC-189 — Implementar — Vocabulário por categorias](E08_Fala_linguagem_leitura_e_escrita/VCC-189.md) · E08 · F3 · P1
+- [VCC-190 — Implementar — Nomeação de imagens](E08_Fala_linguagem_leitura_e_escrita/VCC-190.md) · E08 · F3 · P1
+- [VCC-191 — Implementar — Compreensão de instruções](E08_Fala_linguagem_leitura_e_escrita/VCC-191.md) · E08 · F3 · P1
+- [VCC-192 — Implementar — Construção frásica](E08_Fala_linguagem_leitura_e_escrita/VCC-192.md) · E08 · F3 · P1
+- [VCC-193 — Implementar — Morfossintaxe](E08_Fala_linguagem_leitura_e_escrita/VCC-193.md) · E08 · F3 · P1
+- [VCC-194 — Implementar — Sequências narrativas](E08_Fala_linguagem_leitura_e_escrita/VCC-194.md) · E08 · F3 · P1
+- [VCC-195 — Implementar — Comunicação funcional](E08_Fala_linguagem_leitura_e_escrita/VCC-195.md) · E08 · F3 · P1
+- [VCC-196 — Implementar — Associação grafema-fonema](E08_Fala_linguagem_leitura_e_escrita/VCC-196.md) · E08 · F3 · P1
+- [VCC-197 — Implementar — Pré-leitura](E08_Fala_linguagem_leitura_e_escrita/VCC-197.md) · E08 · F3 · P1
+- [VCC-198 — Implementar — Leitura de palavras](E08_Fala_linguagem_leitura_e_escrita/VCC-198.md) · E08 · F3 · P1
+- [VCC-199 — Implementar — Escrita guiada](E08_Fala_linguagem_leitura_e_escrita/VCC-199.md) · E08 · F3 · P1
+- [VCC-200 — Implementar — Exercícios de compreensão](E08_Fala_linguagem_leitura_e_escrita/VCC-200.md) · E08 · F3 · P1
+- [VCC-201 — Criar interface — Articulação de fonemas](E08_Fala_linguagem_leitura_e_escrita/VCC-201.md) · E08 · F3 · P1
+- [VCC-202 — Criar interface — Pares mínimos](E08_Fala_linguagem_leitura_e_escrita/VCC-202.md) · E08 · F3 · P1
+- [VCC-203 — Criar interface — Discriminação auditiva](E08_Fala_linguagem_leitura_e_escrita/VCC-203.md) · E08 · F3 · P1
+- [VCC-204 — Criar interface — Segmentação silábica](E08_Fala_linguagem_leitura_e_escrita/VCC-204.md) · E08 · F3 · P1
+- [VCC-205 — Criar interface — Consciência de rimas](E08_Fala_linguagem_leitura_e_escrita/VCC-205.md) · E08 · F3 · P1
+- [VCC-206 — Criar interface — Identificação de fonemas](E08_Fala_linguagem_leitura_e_escrita/VCC-206.md) · E08 · F3 · P1
+- [VCC-207 — Criar interface — Vocabulário por categorias](E08_Fala_linguagem_leitura_e_escrita/VCC-207.md) · E08 · F3 · P1
+- [VCC-208 — Criar interface — Nomeação de imagens](E08_Fala_linguagem_leitura_e_escrita/VCC-208.md) · E08 · F3 · P1
+- [VCC-209 — Criar interface — Compreensão de instruções](E08_Fala_linguagem_leitura_e_escrita/VCC-209.md) · E08 · F3 · P1
+- [VCC-210 — Criar interface — Construção frásica](E08_Fala_linguagem_leitura_e_escrita/VCC-210.md) · E08 · F3 · P1
+- [VCC-211 — Criar interface — Morfossintaxe](E08_Fala_linguagem_leitura_e_escrita/VCC-211.md) · E08 · F3 · P1
+- [VCC-212 — Criar interface — Sequências narrativas](E08_Fala_linguagem_leitura_e_escrita/VCC-212.md) · E08 · F3 · P1
+- [VCC-213 — Criar interface — Comunicação funcional](E08_Fala_linguagem_leitura_e_escrita/VCC-213.md) · E08 · F3 · P1
+- [VCC-214 — Criar interface — Associação grafema-fonema](E08_Fala_linguagem_leitura_e_escrita/VCC-214.md) · E08 · F3 · P1
+- [VCC-215 — Criar interface — Pré-leitura](E08_Fala_linguagem_leitura_e_escrita/VCC-215.md) · E08 · F3 · P1
+- [VCC-216 — Criar interface — Leitura de palavras](E08_Fala_linguagem_leitura_e_escrita/VCC-216.md) · E08 · F3 · P1
+- [VCC-217 — Criar interface — Escrita guiada](E08_Fala_linguagem_leitura_e_escrita/VCC-217.md) · E08 · F3 · P1
+- [VCC-218 — Criar interface — Exercícios de compreensão](E08_Fala_linguagem_leitura_e_escrita/VCC-218.md) · E08 · F3 · P1
+- [VCC-219 — Persistir e integrar — Articulação de fonemas](E08_Fala_linguagem_leitura_e_escrita/VCC-219.md) · E08 · F3 · P1
+- [VCC-220 — Persistir e integrar — Pares mínimos](E08_Fala_linguagem_leitura_e_escrita/VCC-220.md) · E08 · F3 · P1
+- [VCC-221 — Persistir e integrar — Discriminação auditiva](E08_Fala_linguagem_leitura_e_escrita/VCC-221.md) · E08 · F3 · P1
+- [VCC-222 — Persistir e integrar — Segmentação silábica](E08_Fala_linguagem_leitura_e_escrita/VCC-222.md) · E08 · F3 · P1
+- [VCC-223 — Persistir e integrar — Consciência de rimas](E08_Fala_linguagem_leitura_e_escrita/VCC-223.md) · E08 · F3 · P1
+- [VCC-224 — Persistir e integrar — Identificação de fonemas](E08_Fala_linguagem_leitura_e_escrita/VCC-224.md) · E08 · F3 · P1
+- [VCC-225 — Persistir e integrar — Vocabulário por categorias](E08_Fala_linguagem_leitura_e_escrita/VCC-225.md) · E08 · F3 · P1
+- [VCC-226 — Persistir e integrar — Nomeação de imagens](E08_Fala_linguagem_leitura_e_escrita/VCC-226.md) · E08 · F3 · P1
+- [VCC-227 — Persistir e integrar — Compreensão de instruções](E08_Fala_linguagem_leitura_e_escrita/VCC-227.md) · E08 · F3 · P1
+- [VCC-228 — Persistir e integrar — Construção frásica](E08_Fala_linguagem_leitura_e_escrita/VCC-228.md) · E08 · F3 · P1
+- [VCC-229 — Persistir e integrar — Morfossintaxe](E08_Fala_linguagem_leitura_e_escrita/VCC-229.md) · E08 · F3 · P1
+- [VCC-230 — Persistir e integrar — Sequências narrativas](E08_Fala_linguagem_leitura_e_escrita/VCC-230.md) · E08 · F3 · P1
+- [VCC-231 — Persistir e integrar — Comunicação funcional](E08_Fala_linguagem_leitura_e_escrita/VCC-231.md) · E08 · F3 · P1
+- [VCC-232 — Persistir e integrar — Associação grafema-fonema](E08_Fala_linguagem_leitura_e_escrita/VCC-232.md) · E08 · F3 · P1
+- [VCC-233 — Persistir e integrar — Pré-leitura](E08_Fala_linguagem_leitura_e_escrita/VCC-233.md) · E08 · F3 · P1
+- [VCC-234 — Persistir e integrar — Leitura de palavras](E08_Fala_linguagem_leitura_e_escrita/VCC-234.md) · E08 · F3 · P1
+- [VCC-235 — Implementar — Sessão de treino](E09_Sess_es_e_planos_personalizados/VCC-235.md) · E09 · F4 · P1
+- [VCC-236 — Implementar — Objetivos de aprendizagem](E09_Sess_es_e_planos_personalizados/VCC-236.md) · E09 · F4 · P1
+- [VCC-237 — Implementar — Plano semanal](E09_Sess_es_e_planos_personalizados/VCC-237.md) · E09 · F4 · P1
+- [VCC-238 — Implementar — Atribuição de exercícios](E09_Sess_es_e_planos_personalizados/VCC-238.md) · E09 · F4 · P1
+- [VCC-239 — Implementar — Histórico de sessões](E09_Sess_es_e_planos_personalizados/VCC-239.md) · E09 · F4 · P1
+- [VCC-240 — Implementar — Atividades para casa](E09_Sess_es_e_planos_personalizados/VCC-240.md) · E09 · F4 · P1
+- [VCC-241 — Implementar — Lembretes locais](E09_Sess_es_e_planos_personalizados/VCC-241.md) · E09 · F4 · P1
+- [VCC-242 — Criar interface — Sessão de treino](E09_Sess_es_e_planos_personalizados/VCC-242.md) · E09 · F4 · P1
+- [VCC-243 — Criar interface — Objetivos de aprendizagem](E09_Sess_es_e_planos_personalizados/VCC-243.md) · E09 · F4 · P1
+- [VCC-244 — Criar interface — Plano semanal](E09_Sess_es_e_planos_personalizados/VCC-244.md) · E09 · F4 · P1
+- [VCC-245 — Criar interface — Atribuição de exercícios](E09_Sess_es_e_planos_personalizados/VCC-245.md) · E09 · F4 · P1
+- [VCC-246 — Criar interface — Histórico de sessões](E09_Sess_es_e_planos_personalizados/VCC-246.md) · E09 · F4 · P1
+- [VCC-247 — Criar interface — Atividades para casa](E09_Sess_es_e_planos_personalizados/VCC-247.md) · E09 · F4 · P1
+- [VCC-248 — Criar interface — Lembretes locais](E09_Sess_es_e_planos_personalizados/VCC-248.md) · E09 · F4 · P1
+- [VCC-249 — Persistir e integrar — Sessão de treino](E09_Sess_es_e_planos_personalizados/VCC-249.md) · E09 · F4 · P1
+- [VCC-250 — Persistir e integrar — Objetivos de aprendizagem](E09_Sess_es_e_planos_personalizados/VCC-250.md) · E09 · F4 · P1
+- [VCC-251 — Persistir e integrar — Plano semanal](E09_Sess_es_e_planos_personalizados/VCC-251.md) · E09 · F4 · P1
+- [VCC-252 — Persistir e integrar — Atribuição de exercícios](E09_Sess_es_e_planos_personalizados/VCC-252.md) · E09 · F4 · P1
+- [VCC-253 — Persistir e integrar — Histórico de sessões](E09_Sess_es_e_planos_personalizados/VCC-253.md) · E09 · F4 · P1
+- [VCC-254 — Persistir e integrar — Atividades para casa](E09_Sess_es_e_planos_personalizados/VCC-254.md) · E09 · F4 · P1
+- [VCC-255 — Implementar — Dashboard parental](E10_rea_dos_pais_e_terapeutas/VCC-255.md) · E10 · F5 · P2
+- [VCC-256 — Implementar — Relatórios de evolução](E10_rea_dos_pais_e_terapeutas/VCC-256.md) · E10 · F5 · P2
+- [VCC-257 — Implementar — Área do terapeuta](E10_rea_dos_pais_e_terapeutas/VCC-257.md) · E10 · F5 · P2
+- [VCC-258 — Implementar — Observações de sessão](E10_rea_dos_pais_e_terapeutas/VCC-258.md) · E10 · F5 · P2
+- [VCC-259 — Implementar — Editor de exercícios](E10_rea_dos_pais_e_terapeutas/VCC-259.md) · E10 · F5 · P2
+- [VCC-260 — Implementar — Exportação de relatórios](E10_rea_dos_pais_e_terapeutas/VCC-260.md) · E10 · F5 · P2
+- [VCC-261 — Implementar — Gestão de objetivos](E10_rea_dos_pais_e_terapeutas/VCC-261.md) · E10 · F5 · P2
+- [VCC-262 — Implementar — Acessibilidade do adulto](E10_rea_dos_pais_e_terapeutas/VCC-262.md) · E10 · F5 · P2
+- [VCC-263 — Implementar — Importação de planos](E10_rea_dos_pais_e_terapeutas/VCC-263.md) · E10 · F5 · P2
+- [VCC-264 — Criar interface — Dashboard parental](E10_rea_dos_pais_e_terapeutas/VCC-264.md) · E10 · F5 · P2
+- [VCC-265 — Criar interface — Relatórios de evolução](E10_rea_dos_pais_e_terapeutas/VCC-265.md) · E10 · F5 · P2
+- [VCC-266 — Criar interface — Área do terapeuta](E10_rea_dos_pais_e_terapeutas/VCC-266.md) · E10 · F5 · P2
+- [VCC-267 — Criar interface — Observações de sessão](E10_rea_dos_pais_e_terapeutas/VCC-267.md) · E10 · F5 · P2
+- [VCC-268 — Criar interface — Editor de exercícios](E10_rea_dos_pais_e_terapeutas/VCC-268.md) · E10 · F5 · P2
+- [VCC-269 — Criar interface — Exportação de relatórios](E10_rea_dos_pais_e_terapeutas/VCC-269.md) · E10 · F5 · P2
+- [VCC-270 — Criar interface — Gestão de objetivos](E10_rea_dos_pais_e_terapeutas/VCC-270.md) · E10 · F5 · P2
+- [VCC-271 — Criar interface — Acessibilidade do adulto](E10_rea_dos_pais_e_terapeutas/VCC-271.md) · E10 · F5 · P2
+- [VCC-272 — Criar interface — Importação de planos](E10_rea_dos_pais_e_terapeutas/VCC-272.md) · E10 · F5 · P2
+- [VCC-273 — Persistir e integrar — Dashboard parental](E10_rea_dos_pais_e_terapeutas/VCC-273.md) · E10 · F5 · P2
+- [VCC-274 — Persistir e integrar — Relatórios de evolução](E10_rea_dos_pais_e_terapeutas/VCC-274.md) · E10 · F5 · P2
+- [VCC-275 — Persistir e integrar — Área do terapeuta](E10_rea_dos_pais_e_terapeutas/VCC-275.md) · E10 · F5 · P2
+- [VCC-276 — Persistir e integrar — Observações de sessão](E10_rea_dos_pais_e_terapeutas/VCC-276.md) · E10 · F5 · P2
+- [VCC-277 — Persistir e integrar — Editor de exercícios](E10_rea_dos_pais_e_terapeutas/VCC-277.md) · E10 · F5 · P2
+- [VCC-278 — Persistir e integrar — Exportação de relatórios](E10_rea_dos_pais_e_terapeutas/VCC-278.md) · E10 · F5 · P2
+- [VCC-279 — Persistir e integrar — Gestão de objetivos](E10_rea_dos_pais_e_terapeutas/VCC-279.md) · E10 · F5 · P2
+- [VCC-280 — Persistir e integrar — Acessibilidade do adulto](E10_rea_dos_pais_e_terapeutas/VCC-280.md) · E10 · F5 · P2
+- [VCC-281 — Persistir e integrar — Importação de planos](E10_rea_dos_pais_e_terapeutas/VCC-281.md) · E10 · F5 · P2
+- [VCC-282 — Testar e validar — Dashboard parental](E10_rea_dos_pais_e_terapeutas/VCC-282.md) · E10 · F5 · P2
+- [VCC-283 — Implementar — Testes unitários](E11_Testes_qualidade_e_publica_o/VCC-283.md) · E11 · F0–F6 · P2
+- [VCC-284 — Implementar — Testes de integração](E11_Testes_qualidade_e_publica_o/VCC-284.md) · E11 · F0–F6 · P2
+- [VCC-285 — Implementar — Testes UI Compose](E11_Testes_qualidade_e_publica_o/VCC-285.md) · E11 · F0–F6 · P2
+- [VCC-286 — Implementar — Testes offline](E11_Testes_qualidade_e_publica_o/VCC-286.md) · E11 · F0–F6 · P2
+- [VCC-287 — Implementar — Testes de acessibilidade](E11_Testes_qualidade_e_publica_o/VCC-287.md) · E11 · F0–F6 · P2
+- [VCC-288 — Implementar — Revisão linguística pt-PT](E11_Testes_qualidade_e_publica_o/VCC-288.md) · E11 · F0–F6 · P2
+- [VCC-289 — Implementar — Revisão por terapeuta da fala](E11_Testes_qualidade_e_publica_o/VCC-289.md) · E11 · F0–F6 · P2
+- [VCC-290 — Implementar — Segurança e privacidade](E11_Testes_qualidade_e_publica_o/VCC-290.md) · E11 · F0–F6 · P2
+- [VCC-291 — Implementar — Build de release](E11_Testes_qualidade_e_publica_o/VCC-291.md) · E11 · F0–F6 · P2
+- [VCC-292 — Criar interface — Testes unitários](E11_Testes_qualidade_e_publica_o/VCC-292.md) · E11 · F0–F6 · P2
+- [VCC-293 — Criar interface — Testes de integração](E11_Testes_qualidade_e_publica_o/VCC-293.md) · E11 · F0–F6 · P2
+- [VCC-294 — Criar interface — Testes UI Compose](E11_Testes_qualidade_e_publica_o/VCC-294.md) · E11 · F0–F6 · P2
+- [VCC-295 — Criar interface — Testes offline](E11_Testes_qualidade_e_publica_o/VCC-295.md) · E11 · F0–F6 · P2
+- [VCC-296 — Criar interface — Testes de acessibilidade](E11_Testes_qualidade_e_publica_o/VCC-296.md) · E11 · F0–F6 · P2
+- [VCC-297 — Criar interface — Revisão linguística pt-PT](E11_Testes_qualidade_e_publica_o/VCC-297.md) · E11 · F0–F6 · P2
+- [VCC-298 — Criar interface — Revisão por terapeuta da fala](E11_Testes_qualidade_e_publica_o/VCC-298.md) · E11 · F0–F6 · P2
+- [VCC-299 — Criar interface — Segurança e privacidade](E11_Testes_qualidade_e_publica_o/VCC-299.md) · E11 · F0–F6 · P2
+- [VCC-300 — Criar interface — Build de release](E11_Testes_qualidade_e_publica_o/VCC-300.md) · E11 · F0–F6 · P2
