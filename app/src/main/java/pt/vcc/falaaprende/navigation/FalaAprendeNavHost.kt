@@ -23,6 +23,7 @@ import pt.vcc.falaaprende.settings.ProjectInfoProvider
 import pt.vcc.falaaprende.settings.ProjectInfoScreen
 import pt.vcc.falaaprende.settings.ArchitectureInfoScreen
 import pt.vcc.falaaprende.settings.DependencyInfoScreen
+import pt.vcc.falaaprende.settings.RoomDiagnosticScreen
 import pt.vcc.falaaprende.di.AppDependencies
 
 @Composable
@@ -52,6 +53,9 @@ fun FalaAprendeNavHost(
             )
         }
         composable("architecture") { ArchitectureInfoScreen() }
+        composable("storage") {
+            RoomDiagnosticScreen(dao = dependencies.diagnosticDao, onBack = { navController.popBackStack() })
+        }
         composable("dependencies") {
             DependencyInfoScreen(
                 dependencies = dependencies,
@@ -62,7 +66,8 @@ fun FalaAprendeNavHost(
             ProjectInfoScreen(
                 info = ProjectInfoProvider.current(),
                 onShowArchitecture = { navController.navigate("architecture") },
-                onShowDependencies = { navController.navigate("dependencies") }
+                onShowDependencies = { navController.navigate("dependencies") },
+                onShowStorage = { navController.navigate("storage") }
             )
         }
     }
