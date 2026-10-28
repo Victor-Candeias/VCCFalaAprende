@@ -21,6 +21,7 @@ import androidx.navigation.compose.composable
 import pt.vcc.falaaprende.core.domain.model.WelcomeMessage
 import pt.vcc.falaaprende.settings.ProjectInfoProvider
 import pt.vcc.falaaprende.settings.ProjectInfoScreen
+import pt.vcc.falaaprende.settings.ArchitectureInfoScreen
 
 @Composable
 fun FalaAprendeNavHost(
@@ -47,8 +48,12 @@ fun FalaAprendeNavHost(
                 description = "Em breve, vais encontrar aqui jogos e exercícios educativos."
             )
         }
+        composable("architecture") { ArchitectureInfoScreen() }
         composable(AppDestination.Settings.route) {
-            ProjectInfoScreen(info = ProjectInfoProvider.current())
+            ProjectInfoScreen(
+                info = ProjectInfoProvider.current(),
+                onShowArchitecture = { navController.navigate("architecture") }
+            )
         }
     }
 }
