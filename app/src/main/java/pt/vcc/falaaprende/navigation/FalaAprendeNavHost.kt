@@ -36,11 +36,12 @@ fun FalaAprendeNavHost(
     navController: NavHostController,
     welcome: WelcomeMessage,
     dependencies: AppDependencies,
+    startDestination: AppDestination = AppDestination.Home,
     modifier: Modifier = Modifier
 ) {
     NavHost(
         navController = navController,
-        startDestination = AppDestination.Home.route,
+        startDestination = startDestination.route,
         modifier = modifier
     ) {
         composable(AppDestination.Home.route) {
