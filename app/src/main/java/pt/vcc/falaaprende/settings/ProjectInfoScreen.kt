@@ -12,12 +12,14 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import pt.vcc.falaaprende.core.designsystem.ChildContentCard
+import pt.vcc.falaaprende.core.designsystem.ChildPrimaryButton
 import pt.vcc.falaaprende.core.designsystem.FalaAprendeSpacing
 
 @Composable
 fun ProjectInfoScreen(
     info: ProjectInfo,
-    modifier: Modifier = Modifier
+    modifier: Modifier = Modifier,
+    onShowArchitecture: () -> Unit = {}
 ) {
     Column(
         modifier = modifier.fillMaxSize()
@@ -31,6 +33,7 @@ fun ProjectInfoScreen(
             Text("Versão: ${info.versionName} (${info.versionCode})")
             Text("Tipo de compilação: ${info.buildType}")
         }
+        ChildPrimaryButton(label = "Ver arquitetura", onClick = onShowArchitecture)
         ChildContentCard(title = "Informações técnicas") {
             Text("Android mínimo: API ${info.minSdk}")
             Text("Android de destino: API ${info.targetSdk}")
