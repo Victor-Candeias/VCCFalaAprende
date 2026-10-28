@@ -3,7 +3,7 @@
 1. No GitHub, seleciona **Code → Codespaces → Create codespace on main**.
 2. Espera que o container instale Java 17 e Android SDK (API 35).
 3. Abre um terminal e verifica: `java -version` e `sdkmanager --list_installed`.
-4. Quando o projeto Gradle e o wrapper forem adicionados (VCC-001), executa `chmod +x gradlew && ./gradlew assembleDebug`.
+4. Executa `./gradlew assembleDebug` para gerar o APK de debug.
 5. O APK de debug ficará em `app/build/outputs/apk/debug/`.
 
 ## Limitações

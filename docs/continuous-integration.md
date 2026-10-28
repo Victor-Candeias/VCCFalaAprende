@@ -12,15 +12,15 @@ Validar automaticamente Pull Requests e alterações na `main` com GitHub Action
 - Runner Ubuntu
 - Java 17 (Temurin)
 - Android SDK 35
-- Gradle 8.10.2, configurado por `gradle/actions/setup-gradle@v4`
+- Gradle 8.10.2, configurado pelo Gradle Wrapper versionado no repositório
 
-O workflow invoca `gradle` diretamente, em vez de `./gradlew`, porque o wrapper JAR pode não estar versionado no repositório. É recomendável corrigir posteriormente o wrapper e versionar `gradle/wrapper/gradle-wrapper.jar`.
+O workflow invoca `./gradlew`, usando o mesmo Gradle Wrapper disponível no Codespace.
 
 ## Validação
 O comando executado é:
 
 ```bash
-gradle --no-daemon clean test assembleDebug
+./gradlew --no-daemon clean test assembleDebug
 ```
 
 O workflow falha caso a compilação ou os testes falhem.
