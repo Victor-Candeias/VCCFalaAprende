@@ -19,7 +19,8 @@ import pt.vcc.falaaprende.core.designsystem.FalaAprendeSpacing
 fun ProjectInfoScreen(
     info: ProjectInfo,
     modifier: Modifier = Modifier,
-    onShowArchitecture: () -> Unit = {}
+    onShowArchitecture: () -> Unit = {},
+    onShowDependencies: () -> Unit = {}
 ) {
     Column(
         modifier = modifier.fillMaxSize()
@@ -34,6 +35,7 @@ fun ProjectInfoScreen(
             Text("Tipo de compilação: ${info.buildType}")
         }
         ChildPrimaryButton(label = "Ver arquitetura", onClick = onShowArchitecture)
+        ChildPrimaryButton(label = "Ver componentes internos", onClick = onShowDependencies)
         ChildContentCard(title = "Informações técnicas") {
             Text("Android mínimo: API ${info.minSdk}")
             Text("Android de destino: API ${info.targetSdk}")

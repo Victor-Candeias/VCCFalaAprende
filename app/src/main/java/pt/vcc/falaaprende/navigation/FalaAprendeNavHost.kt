@@ -22,11 +22,14 @@ import pt.vcc.falaaprende.core.domain.model.WelcomeMessage
 import pt.vcc.falaaprende.settings.ProjectInfoProvider
 import pt.vcc.falaaprende.settings.ProjectInfoScreen
 import pt.vcc.falaaprende.settings.ArchitectureInfoScreen
+import pt.vcc.falaaprende.settings.DependencyInfoScreen
+import pt.vcc.falaaprende.di.AppDependencies
 
 @Composable
 fun FalaAprendeNavHost(
     navController: NavHostController,
     welcome: WelcomeMessage,
+    dependencies: AppDependencies,
     modifier: Modifier = Modifier
 ) {
     NavHost(
@@ -49,10 +52,17 @@ fun FalaAprendeNavHost(
             )
         }
         composable("architecture") { ArchitectureInfoScreen() }
+        composable("dependencies") {
+            DependencyInfoScreen(
+                dependencies = dependencies,
+                onBack = { navController.popBackStack() }
+            )
+        }
         composable(AppDestination.Settings.route) {
             ProjectInfoScreen(
                 info = ProjectInfoProvider.current(),
-                onShowArchitecture = { navController.navigate("architecture") }
+                onShowArchitecture = { navController.navigate("architecture") },
+                onShowDependencies = { navController.navigate("dependencies") }
             )
         }
     }
