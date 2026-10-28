@@ -48,3 +48,5 @@ pt.vcc.falaaprende.app-packageDebugResources-46 /workspaces/VCCFalaAprende/app/b
 pt.vcc.falaaprende.app-debug-47 /workspaces/VCCFalaAprende/app/build/intermediates/merged_res/debug/mergeDebugResources
 pt.vcc.falaaprende.app-debug-48 /workspaces/VCCFalaAprende/app/src/debug/res
 pt.vcc.falaaprende.app-main-49 /workspaces/VCCFalaAprende/app/src/main/res
+pt.vcc.falaaprende.app-debug-50 /workspaces/VCCFalaAprende/core/data/build/intermediates/packaged_res/debug/packageDebugResources
+pt.vcc.falaaprende.app-debug-51 /workspaces/VCCFalaAprende/core/designsystem/build/intermediates/packaged_res/debug/packageDebugResources

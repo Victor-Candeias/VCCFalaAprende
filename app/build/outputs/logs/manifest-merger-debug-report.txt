@@ -4,6 +4,8 @@ ADDED from /workspaces/VCCFalaAprende/app/src/main/AndroidManifest.xml:2:1-17:12
 INJECTED from /workspaces/VCCFalaAprende/app/src/main/AndroidManifest.xml:2:1-17:12
 INJECTED from /workspaces/VCCFalaAprende/app/src/main/AndroidManifest.xml:2:1-17:12
 INJECTED from /workspaces/VCCFalaAprende/app/src/main/AndroidManifest.xml:2:1-17:12
+MERGED from [:core:data] /workspaces/VCCFalaAprende/core/data/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:core:designsystem] /workspaces/VCCFalaAprende/core/designsystem/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.material3:material3-android:1.3.1] /home/vscode/.gradle/caches/8.10.2/transforms/20f46d3f8d79b6fbbc23b4c324938705/transformed/material3-release/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.compose.material:material-android:1.7.5] /home/vscode/.gradle/caches/8.10.2/transforms/2b43ec9d254df51721edfffb0874ca87/transformed/material-release/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.material:material-ripple-android:1.7.5] /home/vscode/.gradle/caches/8.10.2/transforms/8f093bbc21d1b4b6c67109f083a6b6ff/transformed/material-ripple-release/AndroidManifest.xml:2:1-7:12
@@ -19,9 +21,9 @@ MERGED from [androidx.compose.ui:ui-util-android:1.7.5] /home/vscode/.gradle/cac
 MERGED from [androidx.compose.ui:ui-text-android:1.7.5] /home/vscode/.gradle/caches/8.10.2/transforms/9a7baf5a16aafddf662e876b0c1dce1b/transformed/ui-text-release/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.5] /home/vscode/.gradle/caches/8.10.2/transforms/1fddbff0ad3c555cbd7bcee6ce428c91/transformed/ui-tooling-preview-release/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.compose.ui:ui-tooling-android:1.7.5] /home/vscode/.gradle/caches/8.10.2/transforms/707066cf3d13fc2b3d8f73f06027a4a5/transformed/ui-tooling-release/AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.compose.ui:ui-test-manifest:1.7.5] /home/vscode/.gradle/caches/8.10.2/transforms/58d97c9e32b97f756e27d51babf2999c/transformed/ui-test-manifest-1.7.5/AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.compose.material:material-icons-core-android:1.7.5] /home/vscode/.gradle/caches/8.10.2/transforms/65b33937fea40c85c0a667086f7c9939/transformed/material-icons-core-release/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.ui:ui-android:1.7.5] /home/vscode/.gradle/caches/8.10.2/transforms/0dd6cc4e526ae796a4fd7974186049b7/transformed/ui-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.5] /home/vscode/.gradle/caches/8.10.2/transforms/58d97c9e32b97f756e27d51babf2999c/transformed/ui-test-manifest-1.7.5/AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.activity:activity:1.9.3] /home/vscode/.gradle/caches/8.10.2/transforms/362321337d401f8375108a8f8ecd3d25/transformed/activity-1.9.3/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity-ktx:1.9.3] /home/vscode/.gradle/caches/8.10.2/transforms/1dc6b277844fc8e961be407181ceab37/transformed/activity-ktx-1.9.3/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.activity:activity-compose:1.9.3] /home/vscode/.gradle/caches/8.10.2/transforms/6e4c5ffdd99135bf96c339c8dc4d620f/transformed/activity-compose-1.9.3/AndroidManifest.xml:2:1-7:12
@@ -41,13 +43,13 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.3] /home/vscode/.gra
 MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.3] /home/vscode/.gradle/caches/8.10.2/transforms/c97ae65454768bcc91548b52c8ebcb5d/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.3] /home/vscode/.gradle/caches/8.10.2/transforms/011e3deb2eb710e4de423ed04ceea014/transformed/lifecycle-viewmodel-savedstate-2.8.3/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core-ktx:1.15.0] /home/vscode/.gradle/caches/8.10.2/transforms/67f75865186c032f789cbb831d59a2c4/transformed/core-ktx-1.15.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.runtime:runtime-android:1.7.5] /home/vscode/.gradle/caches/8.10.2/transforms/2fb7d14807486fd36a21d321cd1c7fdd/transformed/runtime-release/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.5] /home/vscode/.gradle/caches/8.10.2/transforms/7a04f4012bb6ef48dd1bbc269f9265f8/transformed/runtime-saveable-release/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/vscode/.gradle/caches/8.10.2/transforms/a9c41a5c6496fbe4cee9d8322e9a0afa/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/vscode/.gradle/caches/8.10.2/transforms/6754d77f8261af673c38485a5e6d88a7/transformed/profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
 MERGED from [androidx.startup:startup-runtime:1.1.1] /home/vscode/.gradle/caches/8.10.2/transforms/41cb36efbbda9ba89bc6c5107d0e19e7/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.tracing:tracing:1.2.0] /home/vscode/.gradle/caches/8.10.2/transforms/aa77b69ddcd85e6839f7b9fdf635faf6/transformed/tracing-1.2.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/vscode/.gradle/caches/8.10.2/transforms/92accc93cd51e7d40b21bc95b2f63cc6/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.compose.runtime:runtime-android:1.7.5] /home/vscode/.gradle/caches/8.10.2/transforms/2fb7d14807486fd36a21d321cd1c7fdd/transformed/runtime-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.5] /home/vscode/.gradle/caches/8.10.2/transforms/7a04f4012bb6ef48dd1bbc269f9265f8/transformed/runtime-saveable-release/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/vscode/.gradle/caches/8.10.2/transforms/cc3ec1168c73646fa1e5053684a4d8d4/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.4.1] /home/vscode/.gradle/caches/8.10.2/transforms/933815909f3f64f6d8c4da7681bc0d5e/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:2:1-7:12
 	package
@@ -109,6 +111,10 @@ uses-sdk
 INJECTED from /workspaces/VCCFalaAprende/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /workspaces/VCCFalaAprende/app/src/main/AndroidManifest.xml
 INJECTED from /workspaces/VCCFalaAprende/app/src/main/AndroidManifest.xml
+MERGED from [:core:data] /workspaces/VCCFalaAprende/core/data/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:core:data] /workspaces/VCCFalaAprende/core/data/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:core:designsystem] /workspaces/VCCFalaAprende/core/designsystem/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:core:designsystem] /workspaces/VCCFalaAprende/core/designsystem/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.material3:material3-android:1.3.1] /home/vscode/.gradle/caches/8.10.2/transforms/20f46d3f8d79b6fbbc23b4c324938705/transformed/material3-release/AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.material3:material3-android:1.3.1] /home/vscode/.gradle/caches/8.10.2/transforms/20f46d3f8d79b6fbbc23b4c324938705/transformed/material3-release/AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.material:material-android:1.7.5] /home/vscode/.gradle/caches/8.10.2/transforms/2b43ec9d254df51721edfffb0874ca87/transformed/material-release/AndroidManifest.xml:5:5-44
@@ -139,12 +145,12 @@ MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.5] /home/vscode/
 MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.5] /home/vscode/.gradle/caches/8.10.2/transforms/1fddbff0ad3c555cbd7bcee6ce428c91/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.ui:ui-tooling-android:1.7.5] /home/vscode/.gradle/caches/8.10.2/transforms/707066cf3d13fc2b3d8f73f06027a4a5/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.ui:ui-tooling-android:1.7.5] /home/vscode/.gradle/caches/8.10.2/transforms/707066cf3d13fc2b3d8f73f06027a4a5/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-test-manifest:1.7.5] /home/vscode/.gradle/caches/8.10.2/transforms/58d97c9e32b97f756e27d51babf2999c/transformed/ui-test-manifest-1.7.5/AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-test-manifest:1.7.5] /home/vscode/.gradle/caches/8.10.2/transforms/58d97c9e32b97f756e27d51babf2999c/transformed/ui-test-manifest-1.7.5/AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.material:material-icons-core-android:1.7.5] /home/vscode/.gradle/caches/8.10.2/transforms/65b33937fea40c85c0a667086f7c9939/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.material:material-icons-core-android:1.7.5] /home/vscode/.gradle/caches/8.10.2/transforms/65b33937fea40c85c0a667086f7c9939/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.ui:ui-android:1.7.5] /home/vscode/.gradle/caches/8.10.2/transforms/0dd6cc4e526ae796a4fd7974186049b7/transformed/ui-release/AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.ui:ui-android:1.7.5] /home/vscode/.gradle/caches/8.10.2/transforms/0dd6cc4e526ae796a4fd7974186049b7/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.5] /home/vscode/.gradle/caches/8.10.2/transforms/58d97c9e32b97f756e27d51babf2999c/transformed/ui-test-manifest-1.7.5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.5] /home/vscode/.gradle/caches/8.10.2/transforms/58d97c9e32b97f756e27d51babf2999c/transformed/ui-test-manifest-1.7.5/AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity:1.9.3] /home/vscode/.gradle/caches/8.10.2/transforms/362321337d401f8375108a8f8ecd3d25/transformed/activity-1.9.3/AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity:1.9.3] /home/vscode/.gradle/caches/8.10.2/transforms/362321337d401f8375108a8f8ecd3d25/transformed/activity-1.9.3/AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity-ktx:1.9.3] /home/vscode/.gradle/caches/8.10.2/transforms/1dc6b277844fc8e961be407181ceab37/transformed/activity-ktx-1.9.3/AndroidManifest.xml:5:5-44
@@ -183,10 +189,6 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.3] /home/vsco
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.3] /home/vscode/.gradle/caches/8.10.2/transforms/011e3deb2eb710e4de423ed04ceea014/transformed/lifecycle-viewmodel-savedstate-2.8.3/AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core-ktx:1.15.0] /home/vscode/.gradle/caches/8.10.2/transforms/67f75865186c032f789cbb831d59a2c4/transformed/core-ktx-1.15.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.core:core-ktx:1.15.0] /home/vscode/.gradle/caches/8.10.2/transforms/67f75865186c032f789cbb831d59a2c4/transformed/core-ktx-1.15.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.runtime:runtime-android:1.7.5] /home/vscode/.gradle/caches/8.10.2/transforms/2fb7d14807486fd36a21d321cd1c7fdd/transformed/runtime-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.runtime:runtime-android:1.7.5] /home/vscode/.gradle/caches/8.10.2/transforms/2fb7d14807486fd36a21d321cd1c7fdd/transformed/runtime-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.5] /home/vscode/.gradle/caches/8.10.2/transforms/7a04f4012bb6ef48dd1bbc269f9265f8/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.5] /home/vscode/.gradle/caches/8.10.2/transforms/7a04f4012bb6ef48dd1bbc269f9265f8/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/vscode/.gradle/caches/8.10.2/transforms/a9c41a5c6496fbe4cee9d8322e9a0afa/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/vscode/.gradle/caches/8.10.2/transforms/a9c41a5c6496fbe4cee9d8322e9a0afa/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/vscode/.gradle/caches/8.10.2/transforms/6754d77f8261af673c38485a5e6d88a7/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
@@ -197,6 +199,10 @@ MERGED from [androidx.tracing:tracing:1.2.0] /home/vscode/.gradle/caches/8.10.2/
 MERGED from [androidx.tracing:tracing:1.2.0] /home/vscode/.gradle/caches/8.10.2/transforms/aa77b69ddcd85e6839f7b9fdf635faf6/transformed/tracing-1.2.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/vscode/.gradle/caches/8.10.2/transforms/92accc93cd51e7d40b21bc95b2f63cc6/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/vscode/.gradle/caches/8.10.2/transforms/92accc93cd51e7d40b21bc95b2f63cc6/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.runtime:runtime-android:1.7.5] /home/vscode/.gradle/caches/8.10.2/transforms/2fb7d14807486fd36a21d321cd1c7fdd/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.5] /home/vscode/.gradle/caches/8.10.2/transforms/2fb7d14807486fd36a21d321cd1c7fdd/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.5] /home/vscode/.gradle/caches/8.10.2/transforms/7a04f4012bb6ef48dd1bbc269f9265f8/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.5] /home/vscode/.gradle/caches/8.10.2/transforms/7a04f4012bb6ef48dd1bbc269f9265f8/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
 MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/vscode/.gradle/caches/8.10.2/transforms/cc3ec1168c73646fa1e5053684a4d8d4/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/vscode/.gradle/caches/8.10.2/transforms/cc3ec1168c73646fa1e5053684a4d8d4/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.4.1] /home/vscode/.gradle/caches/8.10.2/transforms/933815909f3f64f6d8c4da7681bc0d5e/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
