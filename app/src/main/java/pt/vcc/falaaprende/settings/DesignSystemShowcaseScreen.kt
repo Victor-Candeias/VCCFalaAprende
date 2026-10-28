@@ -43,8 +43,8 @@ fun DesignSystemShowcaseScreen(modifier: Modifier = Modifier) {
                 style = MaterialTheme.typography.bodyLarge
             )
             ChildPrimaryButton(
-                label = if (selected) "Recomeçar" else "Experimentar",
-                onClick = { selected = !selected },
+                label = ShowcaseState.actionLabel(selected),
+                onClick = { selected = ShowcaseState.next(selected) },
                 modifier = Modifier.padding(top = FalaAprendeSpacing.Medium)
             )
         }
