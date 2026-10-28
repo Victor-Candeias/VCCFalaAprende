@@ -7,6 +7,9 @@ data class ArchitectureModule(
 )
 
 object ArchitectureInfo {
+    fun validModuleName(value: String?): String? =
+        value?.takeIf { candidate -> modules.any { it.name == candidate } }
+
     val modules: List<ArchitectureModule> = listOf(
         ArchitectureModule(":app", "Interface Android, navegação e composição de dependências."),
         ArchitectureModule(":core:domain", "Modelos, contratos e regras de negócio."),
