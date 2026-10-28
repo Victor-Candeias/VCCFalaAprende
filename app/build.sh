@@ -14,7 +14,7 @@ echo "Diretoria: $PROJECT_ROOT"
 
 echo ""
 echo "[1/3] Atualizar referências do Git..."
-git fetch origin
+git pull
 
 echo ""
 echo "[2/3] Preparar Gradle..."
