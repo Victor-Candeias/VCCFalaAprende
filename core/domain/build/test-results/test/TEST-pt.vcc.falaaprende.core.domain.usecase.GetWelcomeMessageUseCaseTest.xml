@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pt.vcc.falaaprende.core.domain.usecase.GetWelcomeMessageUseCaseTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-10-28T09:22:43" hostname="codespaces-dba7fb" time="0.008">
+  <properties/>
+  <testcase name="returnsRepositoryMessage" classname="pt.vcc.falaaprende.core.domain.usecase.GetWelcomeMessageUseCaseTest" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

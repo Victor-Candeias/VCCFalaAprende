@@ -1,1 +1,0 @@
-C:\__GitPrivate\VCCFalaAprende\core\common\src\main\kotlin\pt\vcc\falaaprende\core\common\Result.kt
