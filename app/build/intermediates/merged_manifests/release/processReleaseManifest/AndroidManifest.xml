@@ -15,6 +15,7 @@
     <uses-permission android:name="pt.vcc.falaaprende.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 
     <application
+        android:name="pt.vcc.falaaprende.FalaAprendeApplication"
         android:allowBackup="false"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:extractNativeLibs="false"

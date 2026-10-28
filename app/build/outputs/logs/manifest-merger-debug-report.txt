@@ -97,6 +97,8 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/vscod
 		ADDED from /workspaces/VCCFalaAprende/app/src/main/AndroidManifest.xml:4:9-36
 	android:theme
 		ADDED from /workspaces/VCCFalaAprende/app/src/main/AndroidManifest.xml:7:9-72
+	android:name
+		ADDED from /workspaces/VCCFalaAprende/app/src/main/AndroidManifest.xml:3:18-56
 activity#pt.vcc.falaaprende.MainActivity
 ADDED from /workspaces/VCCFalaAprende/app/src/main/AndroidManifest.xml:8:9-15:20
 	android:exported
