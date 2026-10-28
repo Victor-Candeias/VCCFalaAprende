@@ -18,6 +18,7 @@ import pt.vcc.falaaprende.core.designsystem.FalaAprendeSpacing
 @Composable
 fun ProjectInfoScreen(
     info: ProjectInfo,
+    versionHistory: BuildVersionHistory? = null,
     modifier: Modifier = Modifier,
     onShowArchitecture: () -> Unit = {},
     onShowDependencies: () -> Unit = {},
@@ -36,6 +37,11 @@ fun ProjectInfoScreen(
         ChildContentCard(title = info.appName) {
             Text("Versão: ${info.versionName} (${info.versionCode})")
             Text("Tipo de compilação: ${info.buildType}")
+            if (versionHistory != null) {
+                Text("Primeira versão utilizada: ${versionHistory.firstSeenVersion}")
+                versionHistory.previousVersion?.let { Text("Versão anterior: $it") }
+                if (versionHistory.isNewVersion) Text("A aplicação foi atualizada para esta versão.")
+            }
         }
         ChildPrimaryButton(label = "Ver arquitetura", onClick = onShowArchitecture)
         ChildPrimaryButton(label = "Ver componentes internos", onClick = onShowDependencies)
