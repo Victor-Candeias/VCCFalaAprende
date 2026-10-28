@@ -26,6 +26,7 @@ import pt.vcc.falaaprende.settings.DependencyInfoScreen
 import pt.vcc.falaaprende.settings.RoomDiagnosticScreen
 import pt.vcc.falaaprende.settings.CiPipelineScreen
 import pt.vcc.falaaprende.di.AppDependencies
+import pt.vcc.falaaprende.error.ErrorShowcaseScreen
 
 @Composable
 fun FalaAprendeNavHost(
@@ -54,6 +55,9 @@ fun FalaAprendeNavHost(
             )
         }
         composable("architecture") { ArchitectureInfoScreen() }
+        composable("error-management") {
+            ErrorShowcaseScreen(onBack = { navController.popBackStack() })
+        }
         composable("ci-pipeline") {
             CiPipelineScreen(onBack = { navController.popBackStack() })
         }
@@ -72,7 +76,8 @@ fun FalaAprendeNavHost(
                 onShowArchitecture = { navController.navigate("architecture") },
                 onShowDependencies = { navController.navigate("dependencies") },
                 onShowStorage = { navController.navigate("storage") },
-                onShowCiPipeline = { navController.navigate("ci-pipeline") }
+                onShowCiPipeline = { navController.navigate("ci-pipeline") },
+                onShowErrorManagement = { navController.navigate("error-management") }
             )
         }
     }
