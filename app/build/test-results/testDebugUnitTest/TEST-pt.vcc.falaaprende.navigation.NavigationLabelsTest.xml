@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="pt.vcc.falaaprende.navigation.NavigationLabelsTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-10-28T17:40:36" hostname="codespaces-dba7fb" time="0.002">
-  <properties/>
-  <testcase name="unselectedTabUsesOnlyLabel" classname="pt.vcc.falaaprende.navigation.NavigationLabelsTest" time="0.001"/>
-  <testcase name="allDestinationsHaveDistinctLabels" classname="pt.vcc.falaaprende.navigation.NavigationLabelsTest" time="0.0"/>
-  <testcase name="selectedTabHasPortugueseDescription" classname="pt.vcc.falaaprende.navigation.NavigationLabelsTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

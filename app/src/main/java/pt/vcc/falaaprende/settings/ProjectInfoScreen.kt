@@ -21,7 +21,8 @@ fun ProjectInfoScreen(
     modifier: Modifier = Modifier,
     onShowArchitecture: () -> Unit = {},
     onShowDependencies: () -> Unit = {},
-    onShowStorage: () -> Unit = {}
+    onShowStorage: () -> Unit = {},
+    onShowCiPipeline: () -> Unit = {}
 ) {
     Column(
         modifier = modifier.fillMaxSize()
@@ -38,6 +39,7 @@ fun ProjectInfoScreen(
         ChildPrimaryButton(label = "Ver arquitetura", onClick = onShowArchitecture)
         ChildPrimaryButton(label = "Ver componentes internos", onClick = onShowDependencies)
         ChildPrimaryButton(label = "Armazenamento local", onClick = onShowStorage)
+        ChildPrimaryButton(label = "Pipeline CI", onClick = onShowCiPipeline)
         ChildContentCard(title = "Informações técnicas") {
             Text("Android mínimo: API ${info.minSdk}")
             Text("Android de destino: API ${info.targetSdk}")
