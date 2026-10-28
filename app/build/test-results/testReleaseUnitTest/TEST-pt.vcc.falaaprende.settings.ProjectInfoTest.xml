@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="pt.vcc.falaaprende.settings.ProjectInfoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-10-28T16:06:10" hostname="codespaces-dba7fb" time="0.003">
+<testsuite name="pt.vcc.falaaprende.settings.ProjectInfoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-10-28T17:07:01" hostname="codespaces-dba7fb" time="0.007">
   <properties/>
-  <testcase name="projectInfoContainsBuildMetadata" classname="pt.vcc.falaaprende.settings.ProjectInfoTest" time="0.003"/>
+  <testcase name="projectInfoContainsBuildMetadata" classname="pt.vcc.falaaprende.settings.ProjectInfoTest" time="0.007"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

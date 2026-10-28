@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pt.vcc.falaaprende.di.DependencyStatusTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-10-28T17:06:53" hostname="codespaces-dba7fb" time="0.088">
+  <properties/>
+  <testcase name="containerReportsTwoAvailableDependencies" classname="pt.vcc.falaaprende.di.DependencyStatusTest" time="0.088"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
