@@ -4,4 +4,4 @@ dependencyResolutionManagement {
     repositories { google(); mavenCentral() }
 }
 rootProject.name = "VCCFalaAprende"
-include(":app")
+include(":app", ":core:domain", ":core:data", ":core:common", ":core:designsystem")
