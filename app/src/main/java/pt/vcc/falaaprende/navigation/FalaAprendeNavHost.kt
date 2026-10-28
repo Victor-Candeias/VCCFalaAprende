@@ -4,8 +4,10 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.Button
 import androidx.compose.material3.MaterialTheme
+import pt.vcc.falaaprende.core.designsystem.ChildPrimaryButton
+import pt.vcc.falaaprende.core.designsystem.ChildContentCard
+import pt.vcc.falaaprende.core.designsystem.FalaAprendeSpacing
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -68,21 +70,23 @@ private fun DestinationScreen(
     onAction: (() -> Unit)? = null
 ) {
     Column(
-        modifier = Modifier.fillMaxSize().padding(24.dp),
+        modifier = Modifier.fillMaxSize().padding(FalaAprendeSpacing.Large),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
-        Text(title, style = MaterialTheme.typography.headlineMedium, textAlign = TextAlign.Center)
-        Text(
-            description,
-            modifier = Modifier.padding(top = 16.dp),
-            style = MaterialTheme.typography.bodyLarge,
-            textAlign = TextAlign.Center
-        )
+        ChildContentCard(title = title) {
+            Text(
+                text = description,
+                style = MaterialTheme.typography.bodyLarge,
+                textAlign = TextAlign.Start
+            )
+        }
         if (actionLabel != null && onAction != null) {
-            Button(onClick = onAction, modifier = Modifier.padding(top = 24.dp)) {
-                Text(actionLabel)
-            }
+            ChildPrimaryButton(
+                label = actionLabel,
+                onClick = onAction,
+                modifier = Modifier.padding(top = FalaAprendeSpacing.Large)
+            )
         }
     }
 }
