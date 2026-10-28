@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "pt.vcc.falaaprende.app-mergeReleaseResources-47:/values-nl/values-nl.xml",
+            "outputFile": "pt.vcc.falaaprende.app-mergeReleaseResources-48:/values-nl/values-nl.xml",
             "map": [
                 {
                     "source": "/home/vscode/.gradle/caches/8.10.2/transforms/20f46d3f8d79b6fbbc23b4c324938705/transformed/material3-release/res/values-nl/values-nl.xml",

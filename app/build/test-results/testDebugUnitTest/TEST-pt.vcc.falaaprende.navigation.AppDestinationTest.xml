@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="pt.vcc.falaaprende.navigation.AppDestinationTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-10-28T15:32:15" hostname="codespaces-dba7fb" time="0.011">
+<testsuite name="pt.vcc.falaaprende.navigation.AppDestinationTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-10-28T15:35:25" hostname="codespaces-dba7fb" time="0.012">
   <properties/>
   <testcase name="routeResolvesDestination" classname="pt.vcc.falaaprende.navigation.AppDestinationTest" time="0.001"/>
-  <testcase name="routesAreUnique" classname="pt.vcc.falaaprende.navigation.AppDestinationTest" time="0.01"/>
-  <testcase name="unknownRouteFallsBackToHome" classname="pt.vcc.falaaprende.navigation.AppDestinationTest" time="0.0"/>
+  <testcase name="routesAreUnique" classname="pt.vcc.falaaprende.navigation.AppDestinationTest" time="0.009"/>
+  <testcase name="unknownRouteFallsBackToHome" classname="pt.vcc.falaaprende.navigation.AppDestinationTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "pt.vcc.falaaprende.app-mergeDebugResources-51:/values-zu/values-zu.xml",
+            "outputFile": "pt.vcc.falaaprende.app-mergeDebugResources-52:/values-zu/values-zu.xml",
             "map": [
                 {
                     "source": "/home/vscode/.gradle/caches/8.10.2/transforms/c68dc216802e90c6e9e1235c51968ca9/transformed/foundation-release/res/values-zu/values-zu.xml",
