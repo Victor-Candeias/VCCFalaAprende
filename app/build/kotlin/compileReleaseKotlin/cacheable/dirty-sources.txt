@@ -1,0 +1,17 @@
+/workspaces/VCCFalaAprende/app/src/main/java/pt/vcc/falaaprende/settings/ArchitectureInfoScreen.kt
+/workspaces/VCCFalaAprende/app/src/main/java/pt/vcc/falaaprende/error/ErrorScreen.kt
+/workspaces/VCCFalaAprende/app/src/main/java/pt/vcc/falaaprende/navigation/AppDestination.kt
+/workspaces/VCCFalaAprende/app/src/main/java/pt/vcc/falaaprende/settings/DependencyInfoScreen.kt
+/workspaces/VCCFalaAprende/app/src/main/java/pt/vcc/falaaprende/MainActivity.kt
+/workspaces/VCCFalaAprende/app/src/main/java/pt/vcc/falaaprende/settings/ArchitectureInfo.kt
+/workspaces/VCCFalaAprende/app/src/main/java/pt/vcc/falaaprende/settings/ProjectInfoScreen.kt
+/workspaces/VCCFalaAprende/app/src/main/java/pt/vcc/falaaprende/navigation/NavigationLabels.kt
+/workspaces/VCCFalaAprende/app/src/main/java/pt/vcc/falaaprende/error/OperationResult.kt
+/workspaces/VCCFalaAprende/app/src/main/java/pt/vcc/falaaprende/error/AppError.kt
+/workspaces/VCCFalaAprende/app/src/main/java/pt/vcc/falaaprende/settings/RoomDiagnosticScreen.kt
+/workspaces/VCCFalaAprende/app/src/main/java/pt/vcc/falaaprende/navigation/NavigationIcon.kt
+/workspaces/VCCFalaAprende/app/src/main/java/pt/vcc/falaaprende/di/DependencyStatus.kt
+/workspaces/VCCFalaAprende/app/src/main/java/pt/vcc/falaaprende/FalaAprendeApplication.kt
+/workspaces/VCCFalaAprende/app/src/main/java/pt/vcc/falaaprende/navigation/FalaAprendeNavHost.kt
+/workspaces/VCCFalaAprende/app/src/main/java/pt/vcc/falaaprende/di/AppContainer.kt
+/workspaces/VCCFalaAprende/app/src/main/java/pt/vcc/falaaprende/settings/ProjectInfo.kt
