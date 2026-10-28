@@ -23,11 +23,11 @@ interface AppDependencies {
  * instância de Application e partilhadas durante o seu ciclo de vida.
  */
 class AppContainer(
-    context: Context,
-    override val welcomeRepository: WelcomeRepository = LocalWelcomeRepository()
+    override val welcomeRepository: WelcomeRepository = LocalWelcomeRepository(),
+    private val context: Context? = null
 ) : AppDependencies {
     private val database: FalaAprendeDatabase by lazy {
-        Room.databaseBuilder(context.applicationContext, FalaAprendeDatabase::class.java, "falaaprende.db").build()
+        Room.databaseBuilder(requireNotNull(context) { "Android Context necessário para Room" }.applicationContext, FalaAprendeDatabase::class.java, "falaaprende.db").build()
     }
     override val diagnosticDao: DiagnosticDao by lazy { database.diagnosticDao() }
     override val getWelcomeMessage: GetWelcomeMessageUseCase by lazy {
