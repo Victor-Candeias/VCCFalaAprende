@@ -17,6 +17,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
+import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
@@ -38,7 +39,8 @@ fun RoomDiagnosticScreen(dao: DiagnosticDao, onBack: () -> Unit) {
         try {
             count = withContext(Dispatchers.IO) { dao.count() }
             error = false
-        } catch (_: Exception) {
+        } catch (exception: Exception) {
+            if (exception is CancellationException) throw exception
             error = true
         } finally {
             busy = false
@@ -74,7 +76,8 @@ fun RoomDiagnosticScreen(dao: DiagnosticDao, onBack: () -> Unit) {
                     try {
                         withContext(Dispatchers.IO) { dao.insert(DiagnosticEntry()) }
                         refresh()
-                    } catch (_: Exception) {
+                    } catch (exception: Exception) {
+                        if (exception is CancellationException) throw exception
                         error = true
                         busy = false
                     }
@@ -90,7 +93,8 @@ fun RoomDiagnosticScreen(dao: DiagnosticDao, onBack: () -> Unit) {
                     try {
                         withContext(Dispatchers.IO) { dao.clear() }
                         refresh()
-                    } catch (_: Exception) {
+                    } catch (exception: Exception) {
+                        if (exception is CancellationException) throw exception
                         error = true
                         busy = false
                     }
