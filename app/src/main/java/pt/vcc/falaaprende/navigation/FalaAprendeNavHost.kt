@@ -19,6 +19,8 @@ import androidx.navigation.NavGraph.Companion.findStartDestination
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import pt.vcc.falaaprende.core.domain.model.WelcomeMessage
+import pt.vcc.falaaprende.settings.ProjectInfoProvider
+import pt.vcc.falaaprende.settings.ProjectInfoScreen
 
 @Composable
 fun FalaAprendeNavHost(
@@ -46,10 +48,7 @@ fun FalaAprendeNavHost(
             )
         }
         composable(AppDestination.Settings.route) {
-            DestinationScreen(
-                title = "Definições",
-                description = "Em breve, vais poder personalizar a aplicação."
-            )
+            ProjectInfoScreen(info = ProjectInfoProvider.current())
         }
     }
 }
