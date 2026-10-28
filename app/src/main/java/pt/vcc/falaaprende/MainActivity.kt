@@ -36,7 +36,7 @@ class MainActivity : ComponentActivity() {
         var result by mutableStateOf(safely { dependencies.getWelcomeMessage() })
         setContent {
             when (val current = result) {
-                is OperationResult.Success -> FalaAprendeApp(current.value)
+                is OperationResult.Success -> FalaAprendeApp(current.value, dependencies)
                 is OperationResult.Failure -> FalaAprendeTheme {
                     ErrorScreen(
                         error = current.error,
@@ -49,7 +49,7 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun FalaAprendeApp(welcome: WelcomeMessage) {
+fun FalaAprendeApp(welcome: WelcomeMessage, dependencies: pt.vcc.falaaprende.di.AppDependencies) {
     FalaAprendeTheme {
         val navController = rememberNavController()
         val backStackEntry by navController.currentBackStackEntryAsState()
@@ -76,6 +76,7 @@ fun FalaAprendeApp(welcome: WelcomeMessage) {
             FalaAprendeNavHost(
                 navController = navController,
                 welcome = welcome,
+                dependencies = dependencies,
                 modifier = Modifier.fillMaxSize().padding(innerPadding)
             )
         }
