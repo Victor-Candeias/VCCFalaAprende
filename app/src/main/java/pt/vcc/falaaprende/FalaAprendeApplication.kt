@@ -5,5 +5,5 @@ import pt.vcc.falaaprende.di.AppContainer
 import pt.vcc.falaaprende.di.AppDependencies
 
 class FalaAprendeApplication : Application() {
-    val dependencies: AppDependencies by lazy { AppContainer() }
+    val dependencies: AppDependencies by lazy { AppContainer(context = this) }
 }
