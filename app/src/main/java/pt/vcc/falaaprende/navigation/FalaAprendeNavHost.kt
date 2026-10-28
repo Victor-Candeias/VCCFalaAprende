@@ -10,6 +10,8 @@ import pt.vcc.falaaprende.core.designsystem.ChildContentCard
 import pt.vcc.falaaprende.core.designsystem.FalaAprendeSpacing
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.remember
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
@@ -20,6 +22,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import pt.vcc.falaaprende.core.domain.model.WelcomeMessage
 import pt.vcc.falaaprende.settings.ProjectInfoProvider
+import pt.vcc.falaaprende.settings.BuildVersionHistoryStore
 import pt.vcc.falaaprende.settings.ProjectInfoScreen
 import pt.vcc.falaaprende.settings.ArchitectureInfoScreen
 import pt.vcc.falaaprende.settings.DependencyInfoScreen
@@ -71,8 +74,14 @@ fun FalaAprendeNavHost(
             )
         }
         composable(AppDestination.Settings.route) {
+            val context = LocalContext.current
+            val info = remember { ProjectInfoProvider.current() }
+            val history = remember(context, info.versionName) {
+                BuildVersionHistoryStore.record(context, info.versionName)
+            }
             ProjectInfoScreen(
-                info = ProjectInfoProvider.current(),
+                info = info,
+                versionHistory = history,
                 onShowArchitecture = { navController.navigate("architecture") },
                 onShowDependencies = { navController.navigate("dependencies") },
                 onShowStorage = { navController.navigate("storage") },
