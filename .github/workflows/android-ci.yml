@@ -51,7 +51,9 @@ jobs:
           test -f app/build.gradle.kts
 
       - name: Run unit tests and build Debug APK
-        run: gradle --no-daemon clean test assembleDebug
+        run: |
+          set -o pipefail
+          gradle --no-daemon --max-workers=2 --no-parallel clean test assembleDebug --stacktrace 2>&1 | tee gradle-build.log
 
       - name: Upload Debug APK
         if: success()
@@ -60,6 +62,15 @@ jobs:
           name: VCCFalaAprende-debug-apk
           path: app/build/outputs/apk/debug/*.apk
           if-no-files-found: error
+          retention-days: 14
+
+      - name: Upload Gradle diagnostic log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: android-gradle-build-log
+          path: gradle-build.log
+          if-no-files-found: ignore
           retention-days: 14
 
       - name: Upload unit test reports
