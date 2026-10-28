@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pt.vcc.falaaprende.settings.ArchitectureInfoTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-10-28T17:40:36" hostname="codespaces-dba7fb" time="0.002">
+  <properties/>
+  <testcase name="allExpectedModulesAreDocumented" classname="pt.vcc.falaaprende.settings.ArchitectureInfoTest" time="0.001"/>
+  <testcase name="descriptionsAreNonEmpty" classname="pt.vcc.falaaprende.settings.ArchitectureInfoTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
