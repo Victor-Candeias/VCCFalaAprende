@@ -14,6 +14,8 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.semantics.stateDescription
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import pt.vcc.falaaprende.core.designsystem.FalaAprendeTheme
@@ -22,6 +24,8 @@ import pt.vcc.falaaprende.error.ErrorScreen
 import pt.vcc.falaaprende.error.OperationResult
 import pt.vcc.falaaprende.error.safely
 import pt.vcc.falaaprende.navigation.AppDestination
+import pt.vcc.falaaprende.navigation.NavigationIcon
+import pt.vcc.falaaprende.navigation.navigationStateDescription
 import pt.vcc.falaaprende.navigation.FalaAprendeNavHost
 import pt.vcc.falaaprende.navigation.navigateToTopLevel
 
@@ -58,7 +62,10 @@ fun FalaAprendeApp(welcome: WelcomeMessage) {
                         NavigationBarItem(
                             selected = selected == destination,
                             onClick = { navController.navigateToTopLevel(destination) },
-                            icon = { Text(destination.label.take(1)) },
+                            modifier = Modifier.semantics {
+                                stateDescription = navigationStateDescription(destination, selected == destination)
+                            },
+                            icon = { NavigationIcon(destination) },
                             label = { Text(destination.label) },
                             alwaysShowLabel = true
                         )
