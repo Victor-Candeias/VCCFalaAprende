@@ -21,6 +21,7 @@ import androidx.navigation.compose.composable
 import pt.vcc.falaaprende.core.domain.model.WelcomeMessage
 import pt.vcc.falaaprende.settings.ProjectInfoProvider
 import pt.vcc.falaaprende.settings.ProjectInfoScreen
+import pt.vcc.falaaprende.settings.DesignSystemShowcaseScreen
 
 @Composable
 fun FalaAprendeNavHost(
@@ -48,7 +49,17 @@ fun FalaAprendeNavHost(
             )
         }
         composable(AppDestination.Settings.route) {
-            ProjectInfoScreen(info = ProjectInfoProvider.current())
+            Column(verticalArrangement = Arrangement.spacedBy(FalaAprendeSpacing.Medium)) {
+                ChildPrimaryButton(
+                    label = "Ver componentes",
+                    onClick = { navController.navigate("design-system") },
+                    modifier = Modifier.padding(FalaAprendeSpacing.Medium)
+                )
+                ProjectInfoScreen(info = ProjectInfoProvider.current())
+            }
+        }
+        composable("design-system") {
+            DesignSystemShowcaseScreen()
         }
     }
 }
