@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="pt.vcc.falaaprende.di.AppContainerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-10-28T23:51:14" hostname="codespaces-dba7fb" time="0.006">
+<testsuite name="pt.vcc.falaaprende.di.AppContainerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-10-28T23:58:49" hostname="codespaces-dba7fb" time="0.01">
   <properties/>
-  <testcase name="injectedRepositoryIsUsedByUseCase" classname="pt.vcc.falaaprende.di.AppContainerTest" time="0.005"/>
+  <testcase name="injectedRepositoryIsUsedByUseCase" classname="pt.vcc.falaaprende.di.AppContainerTest" time="0.009"/>
   <testcase name="useCaseIsReused" classname="pt.vcc.falaaprende.di.AppContainerTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
