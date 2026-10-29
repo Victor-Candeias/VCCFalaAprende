@@ -19,6 +19,8 @@ import pt.vcc.falaaprende.core.designsystem.FalaAprendeSpacing
 fun ProjectInfoScreen(
     info: ProjectInfo,
     versionHistory: BuildVersionHistory? = null,
+    themeMode: ChildThemeMode = ChildThemeMode.SYSTEM,
+    onThemeModeChange: (ChildThemeMode) -> Unit = {},
     modifier: Modifier = Modifier,
     onShowArchitecture: () -> Unit = {},
     onShowDependencies: () -> Unit = {},
@@ -41,6 +43,12 @@ fun ProjectInfoScreen(
                 Text("Primeira versão utilizada: ${versionHistory.firstSeenVersion}")
                 versionHistory.previousVersion?.let { Text("Versão anterior: $it") }
                 if (versionHistory.isNewVersion) Text("A aplicação foi atualizada para esta versão.")
+            }
+        }
+        ChildContentCard(title = "Aspeto da aplicação") {
+            Text("Modo atual: ${themeMode.label}")
+            ChildThemeMode.entries.forEach { mode ->
+                ChildPrimaryButton(label = "Tema ${mode.label}", onClick = { onThemeModeChange(mode) })
             }
         }
         ChildPrimaryButton(label = "Ver arquitetura", onClick = onShowArchitecture)
