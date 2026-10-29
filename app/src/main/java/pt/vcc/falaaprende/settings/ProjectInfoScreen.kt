@@ -26,7 +26,8 @@ fun ProjectInfoScreen(
     onShowDependencies: () -> Unit = {},
     onShowStorage: () -> Unit = {},
     onShowCiPipeline: () -> Unit = {},
-    onShowErrorManagement: () -> Unit = {}
+    onShowErrorManagement: () -> Unit = {},
+    onShowParentalConsent: () -> Unit = {}
 ) {
     Column(
         modifier = modifier.fillMaxSize()
@@ -56,6 +57,7 @@ fun ProjectInfoScreen(
         ChildPrimaryButton(label = "Armazenamento local", onClick = onShowStorage)
         ChildPrimaryButton(label = "Pipeline CI", onClick = onShowCiPipeline)
         ChildPrimaryButton(label = "Gestão de erros", onClick = onShowErrorManagement)
+        ChildPrimaryButton(label = "Consentimento parental", onClick = onShowParentalConsent)
         ChildContentCard(title = "Informações técnicas") {
             Text("Android mínimo: API ${info.minSdk}")
             Text("Android de destino: API ${info.targetSdk}")
