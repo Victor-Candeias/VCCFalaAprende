@@ -31,7 +31,7 @@ import pt.vcc.falaaprende.core.designsystem.FalaAprendeSpacing
 @Composable
 fun RoomDiagnosticScreen(dao: DiagnosticDao, onBack: () -> Unit) {
     val context = LocalContext.current
-    val lastCount = remember(context) { RoomDiagnosticSnapshot.read(context) }
+    var lastCount by remember(context) { mutableStateOf(RoomDiagnosticSnapshot.read(context)) }
     var count by remember { mutableStateOf<Int?>(null) }
     var error by remember { mutableStateOf(false) }
     var busy by remember { mutableStateOf(false) }
@@ -42,6 +42,7 @@ fun RoomDiagnosticScreen(dao: DiagnosticDao, onBack: () -> Unit) {
         try {
             count = withContext(Dispatchers.IO) { dao.count() }
             RoomDiagnosticSnapshot.save(context, count ?: 0)
+            lastCount = count
             error = false
         } catch (exception: Exception) {
             if (exception is CancellationException) throw exception
