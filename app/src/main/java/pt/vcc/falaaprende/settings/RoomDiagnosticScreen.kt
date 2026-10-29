@@ -17,6 +17,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -29,6 +30,8 @@ import pt.vcc.falaaprende.core.designsystem.FalaAprendeSpacing
 
 @Composable
 fun RoomDiagnosticScreen(dao: DiagnosticDao, onBack: () -> Unit) {
+    val context = LocalContext.current
+    val lastCount = remember(context) { RoomDiagnosticSnapshot.read(context) }
     var count by remember { mutableStateOf<Int?>(null) }
     var error by remember { mutableStateOf(false) }
     var busy by remember { mutableStateOf(false) }
@@ -38,6 +41,7 @@ fun RoomDiagnosticScreen(dao: DiagnosticDao, onBack: () -> Unit) {
         busy = true
         try {
             count = withContext(Dispatchers.IO) { dao.count() }
+            RoomDiagnosticSnapshot.save(context, count ?: 0)
             error = false
         } catch (exception: Exception) {
             if (exception is CancellationException) throw exception
@@ -67,6 +71,7 @@ fun RoomDiagnosticScreen(dao: DiagnosticDao, onBack: () -> Unit) {
                 style = MaterialTheme.typography.bodyLarge
             )
         }
+        if (lastCount != null) Text("Última contagem guardada: $lastCount")
         ChildPrimaryButton(
             label = "Adicionar registo de teste",
             enabled = !busy,
