@@ -21,6 +21,7 @@ import androidx.navigation.NavGraph.Companion.findStartDestination
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import pt.vcc.falaaprende.core.domain.model.WelcomeMessage
+import pt.vcc.falaaprende.settings.ChildThemeMode
 import pt.vcc.falaaprende.settings.ProjectInfoProvider
 import pt.vcc.falaaprende.settings.BuildVersionHistoryStore
 import pt.vcc.falaaprende.settings.ProjectInfoScreen
@@ -37,6 +38,8 @@ fun FalaAprendeNavHost(
     welcome: WelcomeMessage,
     dependencies: AppDependencies,
     startDestination: AppDestination = AppDestination.Home,
+    themeMode: ChildThemeMode = ChildThemeMode.SYSTEM,
+    onThemeModeChange: (ChildThemeMode) -> Unit = {},
     modifier: Modifier = Modifier
 ) {
     NavHost(
@@ -83,6 +86,8 @@ fun FalaAprendeNavHost(
             ProjectInfoScreen(
                 info = info,
                 versionHistory = history,
+                themeMode = themeMode,
+                onThemeModeChange = onThemeModeChange,
                 onShowArchitecture = { navController.navigate("architecture") },
                 onShowDependencies = { navController.navigate("dependencies") },
                 onShowStorage = { navController.navigate("storage") },
