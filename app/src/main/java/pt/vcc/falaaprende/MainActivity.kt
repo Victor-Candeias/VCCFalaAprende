@@ -10,6 +10,7 @@ import androidx.compose.material3.NavigationBarItem
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.remember
 import androidx.compose.ui.platform.LocalContext
@@ -22,6 +23,8 @@ import androidx.compose.ui.semantics.stateDescription
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import pt.vcc.falaaprende.core.designsystem.FalaAprendeTheme
+import pt.vcc.falaaprende.settings.ChildThemeMode
+import pt.vcc.falaaprende.settings.ChildThemePreferences
 import pt.vcc.falaaprende.core.domain.model.WelcomeMessage
 import pt.vcc.falaaprende.error.ErrorScreen
 import pt.vcc.falaaprende.error.OperationResult
@@ -54,8 +57,14 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun FalaAprendeApp(welcome: WelcomeMessage, dependencies: pt.vcc.falaaprende.di.AppDependencies) {
-    FalaAprendeTheme {
-        val context = LocalContext.current
+    val context = LocalContext.current
+    var themeMode by remember(context) { mutableStateOf(ChildThemePreferences.read(context)) }
+    val darkTheme = when (themeMode) {
+        ChildThemeMode.SYSTEM -> isSystemInDarkTheme()
+        ChildThemeMode.LIGHT -> false
+        ChildThemeMode.DARK -> true
+    }
+    FalaAprendeTheme(darkTheme = darkTheme) {
         val restoredDestination = remember(context) { NavigationPreferenceStore.read(context) }
         val navController = rememberNavController()
         val backStackEntry by navController.currentBackStackEntryAsState()
@@ -89,6 +98,11 @@ fun FalaAprendeApp(welcome: WelcomeMessage, dependencies: pt.vcc.falaaprende.di.
                 welcome = welcome,
                 dependencies = dependencies,
                 startDestination = restoredDestination,
+                themeMode = themeMode,
+                onThemeModeChange = { next ->
+                    ChildThemePreferences.save(context, next)
+                    themeMode = next
+                },
                 modifier = Modifier.fillMaxSize().padding(innerPadding)
             )
         }
