@@ -14,6 +14,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import pt.vcc.falaaprende.core.designsystem.ChildContentCard
 import pt.vcc.falaaprende.core.designsystem.ChildPrimaryButton
 import pt.vcc.falaaprende.core.designsystem.FalaAprendeSpacing
@@ -21,7 +22,8 @@ import pt.vcc.falaaprende.core.designsystem.FalaAprendeSpacing
 /** Demonstra estados previsíveis sem executar operações perigosas ou recolher dados. */
 @Composable
 fun ErrorShowcaseScreen(onBack: () -> Unit, modifier: Modifier = Modifier) {
-    var selected by rememberSaveable { mutableStateOf<String?>(null) }
+    val context = LocalContext.current
+    var selected by rememberSaveable { mutableStateOf(ErrorExampleStore.read(context)?.name) }
     Column(
         modifier = modifier.fillMaxSize().verticalScroll(rememberScrollState())
             .padding(FalaAprendeSpacing.Large),
@@ -33,7 +35,10 @@ fun ErrorShowcaseScreen(onBack: () -> Unit, modifier: Modifier = Modifier) {
             AppErrorCode.entries.forEach { code ->
                 ChildPrimaryButton(
                     label = ErrorShowcaseLabels.forCode(code),
-                    onClick = { selected = code.name }
+                    onClick = {
+                        selected = code.name
+                        ErrorExampleStore.save(context, code)
+                    }
                 )
             }
         } else {
@@ -48,7 +53,10 @@ fun ErrorShowcaseScreen(onBack: () -> Unit, modifier: Modifier = Modifier) {
                 }
                 ChildPrimaryButton(
                     label = "Tentar novamente",
-                    onClick = { selected = null }
+                    onClick = {
+                        selected = null
+                        ErrorExampleStore.save(context, null)
+                    }
                 )
             }
             ChildPrimaryButton(label = "Ver outros exemplos", onClick = { selected = null })
