@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="pt.vcc.falaaprende.error.ErrorShowcaseLabelsTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-10-29T23:53:39" hostname="codespaces-dba7fb" time="0.001">
+<testsuite name="pt.vcc.falaaprende.error.ErrorShowcaseLabelsTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-10-30T00:06:20" hostname="codespaces-dba7fb" time="0.002">
   <properties/>
   <testcase name="everyErrorHasAccessibleLabelAndSafeMessage" classname="pt.vcc.falaaprende.error.ErrorShowcaseLabelsTest" time="0.001"/>
   <testcase name="storageMessageIsFriendly" classname="pt.vcc.falaaprende.error.ErrorShowcaseLabelsTest" time="0.0"/>
