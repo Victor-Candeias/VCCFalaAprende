@@ -34,6 +34,7 @@ import pt.vcc.falaaprende.error.ErrorShowcaseScreen
 import pt.vcc.falaaprende.parental.ParentalConsentScreen
 import pt.vcc.falaaprende.parental.ParentalConsentStore
 import pt.vcc.falaaprende.parental.ConsentState
+import pt.vcc.falaaprende.privacy.PrivacySettingsScreen
 
 @Composable
 fun FalaAprendeNavHost(
@@ -76,6 +77,9 @@ fun FalaAprendeNavHost(
         composable("parental-consent") {
             ParentalConsentScreen(onBack = { navController.popBackStack() })
         }
+        composable("privacy-settings") {
+            PrivacySettingsScreen(onBack = { navController.popBackStack() })
+        }
         composable("architecture") { ArchitectureInfoScreen() }
         composable("error-management") {
             ErrorShowcaseScreen(onBack = { navController.popBackStack() })
@@ -108,7 +112,8 @@ fun FalaAprendeNavHost(
                 onShowStorage = { navController.navigate("storage") },
                 onShowCiPipeline = { navController.navigate("ci-pipeline") },
                 onShowErrorManagement = { navController.navigate("error-management") },
-                onShowParentalConsent = { navController.navigate("parental-consent") }
+                onShowParentalConsent = { navController.navigate("parental-consent") },
+                onShowPrivacySettings = { navController.navigate("privacy-settings") }
             )
         }
     }
